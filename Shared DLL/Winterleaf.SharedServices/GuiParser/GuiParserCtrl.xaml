@@ -1,0 +1,48 @@
+﻿<UserControl x:Class="Winterleaf.SharedServices.GuiParser.GuiParserCtrl"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             mc:Ignorable="d" 
+             d:DesignHeight="400" d:DesignWidth="1000"
+             DataContext="{Binding RelativeSource={RelativeSource Self}}"
+             Padding="0,0,0,0">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="20"  />
+            <RowDefinition Height="*"  />
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="250" />
+            <ColumnDefinition Width="*" />
+        </Grid.ColumnDefinitions>
+        <Button  Content="Set Working Folder" HorizontalAlignment="Left" Width ="100" Click="ButtonBase_OnClick"/>
+        <TreeView Grid.Row="1" Grid.Column ="0" Name ="treeView1" SelectedItemChanged="TreeView1_OnSelectedItemChanged"   />
+        <TabControl Grid.Row="1" Grid.Column="1">
+            <TabItem Header="TorqueScript">
+                <ScrollViewer HorizontalScrollBarVisibility="Auto" VerticalScrollBarVisibility="Visible">
+                    <TextBlock Background="White" TextWrapping="Wrap" Text="{Binding TorqueScriptBody,Mode=TwoWay}"  />
+                </ScrollViewer>
+
+            </TabItem>
+            <TabItem Header="CSharp">
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="*"  />
+                        <RowDefinition Height="20"  />
+                    </Grid.RowDefinitions>
+                    <TextBox Grid.Row="0" Background="White" TextWrapping="Wrap" Text="{Binding cSharpScriptBody,Mode=TwoWay}"  AcceptsReturn="True" AcceptsTab="True" VerticalScrollBarVisibility="Visible" HorizontalScrollBarVisibility="Auto"/>
+                    <Button Grid.Row="1" Content="Copy To Clipboard" Name="btnCopyToClipboard" Click="BtnCopyToClipboard_OnClick" />
+                </Grid>
+
+            </TabItem>
+        </TabControl>
+
+        <StackPanel Grid.Row="0" Grid.Column="1" Visibility="Collapsed">
+            <Image Name="ImageDocument" Source="/SharedServices;component/GuiParser/Images/Document.png" />
+            <Image  Source="/SharedServices;component/GuiParser/Images/Folder.png" Name="ImageFolder" />
+
+        </StackPanel>
+
+    </Grid>
+</UserControl>

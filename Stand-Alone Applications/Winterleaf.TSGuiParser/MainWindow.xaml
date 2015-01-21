@@ -1,0 +1,16 @@
+﻿<Window x:Class="Winterleaf.TSGuiParser.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:my="clr-namespace:Winterleaf.SharedServices.GuiParser;assembly=Winterleaf.SharedServices"
+          xmlns:about="clr-namespace:Winterleaf.SharedServices.About;assembly=Winterleaf.SharedServices"
+        Title="MainWindow" Height="400" Width="1000">
+    <TabControl >
+        <TabItem Header= "Gui Parser">
+            <my:GuiParserCtrl />
+        </TabItem>
+        <TabItem Header ="About">
+            <about:About></about:About>
+        </TabItem>
+    </TabControl>
+    
+</Window>

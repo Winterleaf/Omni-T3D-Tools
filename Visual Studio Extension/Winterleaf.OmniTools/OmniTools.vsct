@@ -1,0 +1,142 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CommandTable xmlns="http://schemas.microsoft.com/VisualStudio/2005-10-18/CommandTable" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+  <!--  This is the file that defines the actual layout and type of the commands.
+        It is divided in different sections (e.g. command definition, command
+        placement, ...), with each defining a specific set of properties.
+        See the comment before each section for more details about how to
+        use it. -->
+
+  <!--  The VSCT compiler (the tool that translates this file into the binary 
+        format that VisualStudio will consume) has the ability to run a preprocessor 
+        on the vsct file; this preprocessor is (usually) the C++ preprocessor, so 
+        it is possible to define includes and macros with the same syntax used 
+        in C++ files. Using this ability of the compiler here, we include some files 
+        defining some of the constants that we will use inside the file. -->
+
+  <!--This is the file that defines the IDs for all the commands exposed by VisualStudio. -->
+  <Extern href="stdidcmd.h"/>
+
+  <!--This header contains the command ids for the menus provided by the shell. -->
+  <Extern href="vsshlids.h"/>
+
+  <!--Definition of some VSCT specific constants. In this sample we use it for the IDs inside the guidOfficeIcon group. -->
+  <Extern href="msobtnid.h"/>
+
+
+
+
+  <!--The Commands section is where we the commands, menus and menu groups are defined.
+      This section uses a Guid to identify the package that provides the command defined inside it. -->
+  <Commands package="guidOmniToolsPkg">
+    <!-- Inside this section we have different sub-sections: one for the menus, another  
+    for the menu groups, one for the buttons (the actual commands), one for the combos 
+    and the last one for the bitmaps used. Each element is identified by a command id that  
+    is a unique pair of guid and numeric identifier; the guid part of the identifier is usually  
+    called "command set" and is used to group different command inside a logically related  
+    group; your package should define its own command set in order to avoid collisions  
+    with command ids defined by other packages. -->
+    <Menus>
+      <Menu guid="guidOmniToolsCmdSet" id="TopLevelMenu" priority="0x700" type="Menu">
+        <Parent guid="guidSHLMainMenu" id="IDG_VS_MM_TOOLSADDINS" />
+        <Strings>
+          <ButtonText>Omni Framework</ButtonText>
+          <CommandName>Omni Framework</CommandName>
+        </Strings>
+      </Menu>
+
+      <Menu guid="guidStaticCodeGeneratorCmdSet" id="SubLevelMenu" priority="0x700" type="Menu">
+        <Parent guid="guidOmniToolsCmdSet" id="TopLevelMenu" />
+        <Strings>
+          <ButtonText>Static Code Generation</ButtonText>
+          <CommandName>Static Code Generation</CommandName>
+        </Strings>
+      </Menu>
+      
+    </Menus>
+
+    <!-- In this section you can define new menu groups. A menu group is a container for 
+         other menus or buttons (commands); from a visual point of view you can see the 
+         group as the part of a menu contained between two lines. The parent of a group 
+         must be a menu. -->
+    <Groups>
+      <Group guid="guidOmniToolsCmdSet" id="TopLevelMenuGroup" priority="0x0600"><Parent guid="guidOmniToolsCmdSet" id="TopLevelMenu"/></Group>
+      <Group guid="guidStaticCodeGeneratorCmdSet" id="SubLevelMenuGroup" priority="0x0600"><Parent guid="guidOmniToolsCmdSet" id="TopLevelMenu"/></Group>
+      <Group guid="guidOmniToolsAboutCmdSet" id="SubLevelMenuGroup" priority="0x0600"><Parent guid="guidOmniToolsCmdSet" id="TopLevelMenu"/></Group>
+      <Group guid="guidAutoGenConverterCmdSet" id="MyContextMenuGroup" priority="0x0600"><Parent guid="guidSHLMainMenu" id="IDM_VS_CTXT_CODEWIN"/></Group>
+      
+    </Groups>
+
+    <!--Buttons section. -->
+    <!--This section defines the elements the user can interact with, like a menu command or a button 
+        or combo box in a toolbar. -->
+    <Buttons>
+      <Button guid="guidAutoGenConverterCmdSet" id="cmdidAutoGenConverter" priority="0x0100" type="Button">
+        <Parent guid="guidAutoGenConverterCmdSet" id="MyContextMenuGroup" />
+        <!--<Icon guid="guidImages" id="bmpPic1" />-->
+        <CommandFlag>DynamicVisibility</CommandFlag>
+        <Strings>
+          <CommandName>cmdidAutoGenConverter</CommandName>
+          <ButtonText>OMNI - Insert Type Converters</ButtonText>
+        </Strings>
+      </Button>
+      
+      <Button guid="guidStaticCodeGeneratorCmdSet" id="cmdStaticCodeGenerator" priority="0x0100" type="Button">
+        <Parent guid="guidStaticCodeGeneratorCmdSet" id="SubLevelMenuGroup" />
+        <Strings>
+          <CommandName>cmdStaticCodeGenerator</CommandName>
+          <ButtonText>Static Code Generator</ButtonText>
+          <MenuText>Static Code Generator</MenuText>
+          <ToolTipText>Parses and Generates the OMNI Framework</ToolTipText>
+        </Strings>
+      </Button>
+      
+      
+      
+      <Button guid="guidOmniToolsCmdSet" id="cmdT3DGuiToCSharp" priority="0x0101" type="Button">
+        <Parent guid="guidOmniToolsCmdSet" id="TopLevelMenuGroup" />
+        <Strings>
+          <CommandName>cmdT3DGuiToCSharp</CommandName>
+          <ButtonText>T3D Gui To C#</ButtonText>
+        </Strings>
+      </Button>
+
+      <Button guid="guidOmniToolsAboutCmdSet" id="cmdOmniToolsAbout" priority="0x0101" type="Button">
+        <Parent guid="guidOmniToolsAboutCmdSet" id="SubLevelMenuGroup" />
+        <Strings>
+          <CommandName>cmdOmniToolsAbout</CommandName>
+          <ButtonText>About</ButtonText>
+        </Strings>
+      </Button>
+      
+    </Buttons>
+  </Commands>
+  <Symbols>
+    <!-- This is the package guid. -->
+    <GuidSymbol name="guidOmniToolsPkg" value="{5dd9aab8-1767-4054-9fcb-02c50c4f5051}" />
+
+    
+    <GuidSymbol name="guidOmniToolsCmdSet"  value="{8D7B9CB3-3591-47f9-B104-B7EB173E0F03}" >
+      <IDSymbol name="TopLevelMenu" value="0x0100" />
+      <IDSymbol name="TopLevelMenuGroup" value="0x0101" />
+      <IDSymbol name="cmdT3DGuiToCSharp" value="0x0102" />
+    </GuidSymbol>
+    
+    <GuidSymbol name="guidStaticCodeGeneratorCmdSet"  value="{B0BDE464-54B1-47E5-B8F1-F29217456B2B}" >
+      <IDSymbol name="SubLevelMenu" value="0x0200" />
+      <IDSymbol name="SubLevelMenuGroup" value="0x0201" />
+      <IDSymbol name="cmdStaticCodeGenerator" value="0x0202" />
+    </GuidSymbol>
+
+    <GuidSymbol name="guidOmniToolsAboutCmdSet"  value="{9AD293BA-AC31-4E46-A206-ABEE5C465726}" >
+      <IDSymbol name="SubLevelMenu" value="0x0200" />
+      <IDSymbol name="SubLevelMenuGroup" value="0x0201" />
+      <IDSymbol name="cmdOmniToolsAbout" value="0x0402" />
+    </GuidSymbol>    
+
+    <GuidSymbol name="guidAutoGenConverterCmdSet" value="{2FA21354-3080-46DE-9274-DBBAC52A1427}">
+      <IDSymbol name="MyContextMenuGroup" value="0x1020" />
+      <IDSymbol name="cmdidAutoGenConverter" value="0x0300" />
+    </GuidSymbol>
+  </Symbols>
+</CommandTable>

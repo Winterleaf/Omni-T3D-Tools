@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<VSTemplate Version="3.0.0" Type="Item" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005">
+  <TemplateData>
+    <Name>Omni T3D ProxyObject Template</Name>
+    <Description>Base Template for Proxy Objects</Description>
+    <Icon>OmniProxyItem.ico</Icon>
+    <TemplateID>0192bccb-4952-47b5-b79b-44db7c6e08fb</TemplateID>
+    <ProjectType>CSharp</ProjectType>
+    <DefaultName>coProxyItemTemplate.cs</DefaultName>
+    <ProvideDefaultName>true</ProvideDefaultName>
+    <LocationField>Enabled</LocationField>
+    <RequiredFrameworkVersion>4.0</RequiredFrameworkVersion>
+    <NumberOfParentCategoriesToRollUp>2</NumberOfParentCategoriesToRollUp>
+
+  </TemplateData>
+  <TemplateContent>
+    <References>
+      <Reference>
+        <Assembly>System</Assembly>
+      </Reference>
+    </References>
+
+    <ProjectItem ReplaceParameters="true">ProxyTemplate.cs</ProjectItem>
+    <CustomParameters>
+      <CustomParameter Name="$itemproperties$" Value="CustomTool" />
+      <CustomParameter Name="$CustomTool$" Value="OmniClassHelper" />
+    </CustomParameters>
+  </TemplateContent>
+  <WizardExtension>
+    <Assembly>Microsoft.VSDesigner, Version=10.0.0.0, Culture=Neutral, PublicKeyToken=b03f5f7f11d50a3a</Assembly>
+    <FullClassName>Microsoft.VSDesigner.ProjectWizard.ItemPropertyWizard</FullClassName>
+  </WizardExtension>
+</VSTemplate>

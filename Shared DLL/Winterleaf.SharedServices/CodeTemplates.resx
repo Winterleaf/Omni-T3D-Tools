@@ -1,0 +1,2030 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Omni_Auto_cs_txt" xml:space="preserve">
+    <value>// Copyright (C) 2012 Winterleaf Entertainment L,L,C.
+
+
+using System.Text;
+using WinterLeaf.Engine.Classes.Interopt;
+
+namespace WinterLeaf.Engine
+{
+    sealed public partial class Omni
+    {
+	###INSERTAUTOGEN###
+	}
+}</value>
+  </data>
+  <data name="pInvokes_cs_txt" xml:space="preserve">
+    <value>// Copyright (C) 2012 Winterleaf Entertainment L,L,C.
+
+using System;
+using System.Collections.Generic;
+using System.Globalization;
+using System.Security.RightsManagement;
+using System.Text;
+using System.Windows;
+using WinterLeaf.Engine.Containers;
+using WinterLeaf.Engine.Enums;
+using WinterLeaf.Engine.Classes.Extensions;
+
+
+namespace WinterLeaf.Engine.Classes.Interopt
+    {
+    /// &lt;summary&gt;
+    /// This class is a function organizer for the externs.  All calls to Torque from C# go through this helper class.
+    /// &lt;/summary&gt;
+    public class pInvokes
+        {
+		        /// &lt;summary&gt;
+        /// 
+        /// &lt;/summary&gt;
+        public class muglobals
+            {
+            /// &lt;summary&gt;
+            /// /
+            /// &lt;/summary&gt;
+            /// &lt;param name="key"&gt;&lt;/param&gt;
+            /// &lt;returns&gt;&lt;/returns&gt;
+            public uint this[string key]
+                {
+                get { return m_ts.GetVar(key).AsUint(); }
+                set { m_ts.SetVar(key, value); }
+                }
+            }
+        private readonly muglobals _muglobals = new muglobals();
+        /// &lt;summary&gt;
+        /// used to set/get bool globals
+        /// &lt;/summary&gt;
+        public muglobals uGlobal
+            {
+            get { return _muglobals; }
+            }
+
+		/// &lt;summary&gt;
+        /// 
+        /// &lt;/summary&gt;
+        public class mglobalsIsDefined
+            {
+            /// &lt;summary&gt;
+            /// 
+            /// &lt;/summary&gt;
+            /// &lt;param name="key"&gt;&lt;/param&gt;
+            /// &lt;returns&gt;&lt;/returns&gt;
+            public bool this[string key]
+                {
+                get { return m_ts.fn_isDefined(key, string.Empty); }
+                }
+            }
+
+        public override string ToString()
+            {
+            return base.ToString();
+            }
+
+        readonly mglobalsIsDefined _mglobalsIsDefined = new mglobalsIsDefined();
+
+        /// &lt;summary&gt;
+        /// Used to grab string globals
+        /// &lt;/summary&gt;
+        public mglobalsIsDefined isGlobal
+            {
+            get { return _mglobalsIsDefined; }
+            }
+        /// &lt;summary&gt;
+        /// 
+        /// &lt;/summary&gt;
+        public class msglobals
+            {
+            /// &lt;summary&gt;
+            /// 
+            /// &lt;/summary&gt;
+            /// &lt;param name="key"&gt;&lt;/param&gt;
+            /// &lt;returns&gt;&lt;/returns&gt;
+            public string this[string key]
+                {
+                get { return m_ts.GetVar(key); }
+                set { m_ts.SetVar(key, value); }
+                }
+            }
+        public readonly msglobals _msglobals = new msglobals();
+        /// &lt;summary&gt;
+        /// Used to grab string globals
+        /// &lt;/summary&gt;
+        public msglobals sGlobal
+            {
+            get { return _msglobals; }
+            }
+
+        /// &lt;summary&gt;
+        /// 
+        /// &lt;/summary&gt;
+        public class miglobals
+            {
+            /// &lt;summary&gt;
+            /// 
+            /// &lt;/summary&gt;
+            /// &lt;param name="key"&gt;&lt;/param&gt;
+            /// &lt;returns&gt;&lt;/returns&gt;
+            public int this[string key]
+                {
+                get { return m_ts.GetVar(key).AsInt(); }
+                set { m_ts.SetVar(key, value); }
+                }
+            }
+
+        private readonly miglobals _miglobals = new miglobals();
+        /// &lt;summary&gt;
+        /// used to set/get int globals
+        /// &lt;/summary&gt;
+        public miglobals iGlobal
+            {
+            get { return _miglobals; }
+            }
+        /// &lt;summary&gt;
+        /// 
+        /// &lt;/summary&gt;
+        public class mbglobals
+            {
+            /// &lt;summary&gt;
+            /// /
+            /// &lt;/summary&gt;
+            /// &lt;param name="key"&gt;&lt;/param&gt;
+            /// &lt;returns&gt;&lt;/returns&gt;
+            public bool this[string key]
+                {
+                get { return m_ts.GetVar(key).AsBool(); }
+                set { m_ts.SetVar(key, value); }
+                }
+            }
+        private readonly mbglobals _mbglobals = new mbglobals();
+        /// &lt;summary&gt;
+        /// used to set/get bool globals
+        /// &lt;/summary&gt;
+        public mbglobals bGlobal
+            {
+            get { return _mbglobals; }
+            }
+
+
+		/// &lt;summary&gt;
+        /// 
+        /// &lt;/summary&gt;
+        public class mfglobals
+            {
+            /// &lt;summary&gt;
+            /// /
+            /// &lt;/summary&gt;
+            /// &lt;param name="key"&gt;&lt;/param&gt;
+            /// &lt;returns&gt;&lt;/returns&gt;
+            public float this[string key]
+                {
+                get { return m_ts.GetVar(key).AsFloat(); }
+                set { m_ts.SetVar(key, value); }
+                }
+            }
+        private readonly mfglobals _mfglobals = new mfglobals();
+        /// &lt;summary&gt;
+        /// used to set/get bool globals
+        /// &lt;/summary&gt;
+        public mfglobals fGlobal
+            {
+            get { return _mfglobals; }
+            }
+
+
+			/// &lt;summary&gt;
+        /// 
+        /// &lt;/summary&gt;
+        public class mdglobals
+            {
+            /// &lt;summary&gt;
+            /// /
+            /// &lt;/summary&gt;
+            /// &lt;param name="key"&gt;&lt;/param&gt;
+            /// &lt;returns&gt;&lt;/returns&gt;
+            public double this[string key]
+                {
+                get { return m_ts.GetVar(key).AsDouble(); }
+                set { m_ts.SetVar(key, value); }
+                }
+            }
+        public readonly mdglobals _mdglobals = new mdglobals();
+        /// &lt;summary&gt;
+        /// used to set/get bool globals
+        /// &lt;/summary&gt;
+        public mdglobals dGlobal
+            {
+            get { return _mdglobals; }
+            }
+
+		
+        /// &lt;summary&gt;
+        /// A reference to the dnTorque Object, this must be set at construction time.
+        /// &lt;/summary&gt;
+        public static Omni m_ts;
+
+        /// &lt;summary&gt;
+        /// A property exposing Custom dnTorque Console Functions.
+        /// &lt;/summary&gt;
+        private ConsoleObject _mConsoleobject;
+
+        /// &lt;summary&gt;
+        /// A property exposing Custom Math console functions.
+        /// &lt;/summary&gt;
+        private tMath _mMathobject;
+
+        /// &lt;summary&gt;
+        /// A property exposing Custom dnTorque Console Functions.
+        /// &lt;/summary&gt;
+        public ConsoleObject console
+            {
+            get { return _mConsoleobject; }
+            }
+
+        /// &lt;summary&gt;
+        /// A property exposing Custom Math console functions.
+        /// &lt;/summary&gt;
+        public tMath math
+            {
+            get { return _mMathobject; }
+            }
+        #region
+
+        /// &lt;summary&gt;
+        /// A list of all the Connection Object ID's active in Torque at the moment of request.
+        /// &lt;/summary&gt;
+        public List&lt;UInt32&gt; ClientGroup
+            {
+            get
+                {
+                var temp = new List&lt;uint&gt;();
+                for (uint i = 0; i &lt; ClientGroup__GetCount(); i++)
+                    {
+                    temp.Add(ClientGroup__GetItem(i));
+                    }
+                return temp;
+                }
+            }
+
+        /// &lt;summary&gt;
+        /// The count of connection ID's
+        /// &lt;/summary&gt;
+        /// &lt;returns&gt;&lt;/returns&gt;
+        public UInt32 ClientGroup__GetCount()
+            {
+            return m_ts.ClientGroupGetCount();
+            }
+
+        /// &lt;summary&gt;
+        /// Gets the object id at the index.
+        /// &lt;/summary&gt;
+        /// &lt;param name="index"&gt;&lt;/param&gt;
+        /// &lt;returns&gt;&lt;/returns&gt;
+        public uint ClientGroup__GetItem(UInt32 index)
+            {
+            return m_ts.ClientGroupGetObject(index);
+            }
+
+        /// &lt;summary&gt;
+        /// Removes the tagged string from Torque.
+        /// &lt;/summary&gt;
+        /// &lt;param name="tag"&gt;&lt;/param&gt;
+        public void removeTaggedString(string tag)
+            {
+            m_ts._removeTaggedString(tag);
+            }
+
+        /// &lt;summary&gt;
+        /// Custom console commands.
+        /// &lt;/summary&gt;
+        public class ConsoleObject
+            {
+            private Omni m_ts;
+
+          
+            /// &lt;summary&gt;
+            /// 
+            /// &lt;/summary&gt;
+            /// &lt;returns&gt;&lt;/returns&gt;
+            internal IntPtr torque_gethwnd()
+                {
+                return m_ts._torque_gethwnd();
+
+                }
+
+            /// &lt;summary&gt;
+            /// Determines if the method is defined in the namespace.
+            /// &lt;/summary&gt;
+            /// &lt;param name="NameSpace"&gt;&lt;/param&gt;
+            /// &lt;param name="method"&gt;&lt;/param&gt;
+            /// &lt;returns&gt;&lt;/returns&gt;
+            public bool isMethodInNamespace(string NameSpace, string method)
+                {
+                //if they pass us an id, lets convert it to a name
+                //before checking it.
+                if (NameSpace.IsNumeric())
+                    NameSpace = getName(NameSpace);
+                return m_ts.NameSpaceIsMethod(NameSpace, method);
+                }
+
+            /// &lt;summary&gt;
+            /// Removes the tagged string from Torque.
+            /// &lt;/summary&gt;
+            /// &lt;param name="tag"&gt;&lt;/param&gt;
+            public void removeTaggedString(string tag)
+                {
+                m_ts._removeTaggedString(tag);
+                }
+
+            /// &lt;summary&gt;
+            /// 
+            /// Executes the function on the simobject but a previous version of it.
+            /// For example in TorqueScript you have:
+            /// 
+            /// function AIPlayer::Somefunction(%this)
+            /// {
+            /// Parent::SomeFunction(%this);
+            /// }
+            /// 
+            /// Would translate to:
+            /// 
+            /// ParentExecute(thisobj,"SomeFunction",1,new string[]{thisobj});
+            /// 
+            /// &lt;/summary&gt;
+            /// &lt;param name="simobject"&gt;This can be a simple type like "Player", or a complex type like "Client.Player"&lt;/param&gt;
+            /// &lt;param name="function"&gt;Function to call&lt;/param&gt;
+            /// &lt;param name="namespacedepth"&gt;how many generations up to go from the LAST generation.&lt;/param&gt;
+            /// &lt;param name="parameters"&gt;Parameters to pass&lt;/param&gt;
+            /// &lt;param name="DoNotPassDepth"&gt;By default, this will append a parameter to the end, telling the called function what depth it is currently at, setting this will turn that off.&lt;/param&gt;
+            /// &lt;returns&gt;&lt;/returns&gt;
+            public string ParentExecute(string simobject, string function, int namespacedepth, string[] parameters, bool DoNotPassDepth = false)
+                {
+                return m_ts.ConsoleCallParent(simobject, function, namespacedepth, parameters, DoNotPassDepth);
+                }
+
+            /// &lt;summary&gt;
+            /// Executes the global function  but a previous version of it.
+            /// For example in TorqueScript you have:
+            /// 
+            /// function Somefunction(%Version1)
+            /// {
+            /// }
+            /// 
+            /// function Somefunction(%this)
+            /// {
+            /// Parent::SomeFunction(%this);
+            /// }
+            /// 
+            /// Would translate to:
+            /// 
+            /// ParentExecute("SomeFunction",1,new string[]{thisobj});
+            /// 
+            /// &lt;/summary&gt;
+            /// &lt;param name="function"&gt;Function to call&lt;/param&gt;
+            /// &lt;param name="namespacedepth"&gt;how many generations up to go from the LAST generation.&lt;/param&gt;
+            /// &lt;param name="parameters"&gt;Parameters to pass&lt;/param&gt;
+            /// &lt;param name="DoNotPassDepth"&gt;By default, this will append a parameter to the end, telling the called function what depth it is currently at, setting this will turn that off.&lt;/param&gt;
+            /// &lt;returns&gt;&lt;/returns&gt;
+            public string ParentExecute(string function, int namespacedepth, string[] parameters, bool DoNotPassDepth = false)
+                {
+                return m_ts.ConsoleCallParent(function, namespacedepth, parameters, DoNotPassDepth);
+                }
+
+            /// &lt;summary&gt;
+            /// Executes the global function  but a previous version of it.
+            /// For example in TorqueScript you have:
+            /// 
+            /// function Somefunction(%Version1)
+            /// {
+            /// }
+            /// 
+            /// function Somefunction(%this)
+            /// {
+            /// Parent::SomeFunction(%this);
+            /// }
+            /// 
+            /// Would translate to:
+            /// 
+            /// ParentExecute("SomeFunction",1,new string[]{thisobj});
+            /// 
+            /// &lt;/summary&gt;
+			/// &lt;param name="simobject"&gt;This can be a simple type like "Player", or a complex type like "Client.Player"&lt;/param&gt;
+            /// &lt;param name="function"&gt;&lt;/param&gt;
+            /// &lt;param name="namespacedepth"&gt;how many generations up to go from the LAST generation.&lt;/param&gt;
+            /// &lt;param name="parameters"&gt;Parameters to pass&lt;/param&gt;
+            public string ParentExecute(string simobject, string function, int namespacedepth, string[] parameters)
+                {
+                return m_ts.ConsoleCallParent(simobject, function, namespacedepth, parameters);
+                }
+
+
+            /// &lt;summary&gt;
+            /// The name is a slight misnormer, the classname can be:
+            /// -A Simobject
+            /// -A Class
+            /// -A Package
+            ///  &lt;/summary&gt;
+            /// &lt;param name="classname"&gt;Simobject,Class or Package&lt;/param&gt;
+            /// &lt;param name="function"&gt;Function to call&lt;/param&gt;
+            /// &lt;returns&gt;&lt;/returns&gt;
+            public string Call_Classname(string classname, string function)
+                {
+                return m_ts.ConsoleCallCn(classname, function, new string[] { });
+                }
+
+            /// &lt;summary&gt;
+            /// The name is a slight misnormer, the classname can be:
+            /// -A Simobject
+            /// -A Class
+            /// -A Package
+            ///  &lt;/summary&gt;
+            /// &lt;param name="classname"&gt;Simobject,Class or Package&lt;/param&gt;
+            /// &lt;param name="function"&gt;Function to call&lt;/param&gt;
+            /// &lt;param name="parameters"&gt;Parameters to pass.&lt;/param&gt;
+            /// &lt;returns&gt;&lt;/returns&gt;
+            public string Call_Classname(string classname, string function, string[] parameters)
+                {
+                return m_ts.ConsoleCallCn(classname, function, parameters);
+                }
+
+            /// &lt;summary&gt;
+            /// Calls the function inside the Torque Dll.
+            /// &lt;/summary&gt;
+            /// &lt;param name="function"&gt;Global function to call&lt;/param&gt;
+            /// &lt;param name="parameters"&gt;Parameters to pass.&lt;/param&gt;
+            /// &lt;returns&gt;&lt;/returns&gt;
+            public string Call(string function, string[] parameters)
+                {
+                return m_ts.Execute(function, parameters);
+                }
+
+            /// &lt;summary&gt;
+            /// Calls a function with no parameters.
+            /// &lt;/summary&gt;
+            /// &lt;param name="function"&gt;&lt;/param&gt;
+            /// &lt;returns&gt;&lt;/returns&gt;
+            public string Call(string function)
+                {
+                return m_ts.Execute(function, new string[] { });
+                }
+
+            /// &lt;summary&gt;
+            /// Calls the member function on the object with parameters.
+            /// &lt;/summary&gt;
+            /// &lt;param name="simobject"&gt;Torque object, can be a simple or complex type.  i.e. "Client" or "Player.client"&lt;/param&gt;
+            /// &lt;param name="function"&gt;&lt;/param&gt;
+            /// &lt;param name="parameters"&gt;&lt;/param&gt;
+            /// &lt;returns&gt;&lt;/returns&gt;
+            public string Call(string simobject, string function, string[] parameters)
+                {
+                return m_ts.SimObjectCall(simobject, function, parameters);
+                }
+
+            /// &lt;summary&gt;
+            /// Calls the member function on the object without parameters.
+            /// &lt;/summary&gt;
+            /// &lt;param name="simobject"&gt;Torque object, can be a simple or complex type.  i.e. "Client" or "Player.client"&lt;/param&gt;
+            /// &lt;param name="function"&gt;&lt;/param&gt;
+            /// &lt;returns&gt;&lt;/returns&gt;
+            public string Call(string simobject, string function)
+                {
+                return m_ts.SimObjectCall(simobject, function, new string[] { });
+                }
+
+
+            /// &lt;summary&gt;
+            /// Constructor.
+            /// &lt;/summary&gt;
+            /// &lt;param name="ts"&gt;&lt;/param&gt;
+            public ConsoleObject(ref Omni ts)
+                {
+                m_ts = ts;
+                }
+
+            /// &lt;summary&gt;
+            /// Returns the string for the passed tag.
+            /// &lt;/summary&gt;
+            /// &lt;param name="tag"&gt;&lt;/param&gt;
+            /// &lt;returns&gt;&lt;/returns&gt;
+            public string getTaggedString(string tag)
+                {
+                return m_ts.GetTaggedString(tag);
+                }
+
+            /// &lt;summary&gt;
+            /// Returns the current sim time.
+            /// &lt;/summary&gt;
+            /// &lt;returns&gt;&lt;/returns&gt;
+            public int getSimTime()
+                {
+                return m_ts.ConsoleGetSimTime();
+                }
+
+            /// &lt;summary&gt;
+            /// Deprecated: Should probally use the Util class version
+            /// Spawns a object in the world.
+            /// &lt;/summary&gt;
+            /// &lt;param name="spawnClass"&gt;&lt;/param&gt;
+            /// &lt;param name="spawnDataBlock"&gt;&lt;/param&gt;
+            /// &lt;param name="spawnName"&gt;&lt;/param&gt;
+            /// &lt;param name="spawnProperties"&gt;&lt;/param&gt;
+            /// &lt;param name="spawnScript"&gt;&lt;/param&gt;
+            /// &lt;returns&gt;&lt;/returns&gt;
+            public UInt32 SpawnObject(string spawnClass, string spawnDataBlock, string spawnName, string spawnProperties, string spawnScript)
+                {
+                return m_ts.SpawnObject(spawnClass, spawnDataBlock, spawnName, spawnProperties, spawnScript);
+                }
+
+            /// &lt;summary&gt;
+            /// Determines if function is in the namespace Hierarchy.
+            /// &lt;/summary&gt;
+            /// &lt;param name="simobject_id"&gt;&lt;/param&gt;
+            /// &lt;param name="name"&gt;&lt;/param&gt;
+            /// &lt;returns&gt;&lt;/returns&gt;
+            public bool isInNamespaceHierarchy(string simobject_id, string name)
+                {
+                return m_ts.NameSpaceIsInNamespaceHierarchy(simobject_id, name);
+                }
+
+            /// &lt;summary&gt;
+            /// Returns the mask type for the passed simobject name or id.
+            /// &lt;/summary&gt;
+            /// &lt;param name="SceneObject"&gt;&lt;/param&gt;
+            /// &lt;returns&gt;&lt;/returns&gt;
+            public UInt32 getTypeMask(string SceneObject)
+                {
+                return m_ts.SceneObjectGetTypeMask(SceneObject);
+                }
+
+            /// &lt;summary&gt;
+            /// Returns a dictionary of the objects around the a point with their id and distance.
+            /// &lt;/summary&gt;
+            /// &lt;param name="pos"&gt;&lt;/param&gt;
+            /// &lt;param name="raidus"&gt;&lt;/param&gt;
+            /// &lt;param name="mask"&gt;&lt;/param&gt;
+            /// &lt;param name="useclientcontainer"&gt;&lt;/param&gt;
+            /// &lt;returns&gt;&lt;/returns&gt;
+            public Dictionary&lt;uint, float&gt; initContainerRadiusSearch(Point3F pos, float raidus, UInt32 mask, bool useclientcontainer = false)
+                {
+                return m_ts.SceneObjectInitContainerRadiusSearch(pos, raidus, mask, useclientcontainer);
+                }
+
+      
+            /// &lt;summary&gt;
+            /// This function will take a normal string with torque color
+            /// encoding commands and convert it to the correct format for color encoding
+            /// inside of torque.
+            /// &lt;/summary&gt;
+            /// &lt;param name="mystring"&gt;&lt;/param&gt;
+            /// &lt;returns&gt;&lt;/returns&gt;
+            public string ColorEncode(string mystring)
+                {
+                StringBuilder newstring = new StringBuilder();
+                for (int i = 0; i &lt; mystring.Length; i++)
+                    {
+                    if (mystring[i] == '\\')
+                        {
+                        if ((mystring[i + 1] == 't'))
+                            {
+                            newstring.Append("\t");
+                            }
+                        else if ((mystring[i + 1] == 'n'))
+                            {
+                            newstring.Append("\n");
+                            }
+                        else if ((mystring[i + 1] == 'r'))
+                            {
+                            newstring.Append("\r");
+                            }
+
+                        else if ((mystring[i + 1] == 'c') || (mystring[i + 1] == 'C'))
+                            {
+                            switch (mystring[i + 2].ToString(CultureInfo.InvariantCulture).ToLower())
+                                {
+                                case "0":
+                                    newstring.Append((char)2);
+                                    newstring.Append((char)1);
+                                    i = i + 2;
+                                    break;
+                                case "1":
+                                    newstring.Append((char)2);
+                                    i = i + 2;
+                                    break;
+                                case "2":
+                                    newstring.Append((char)3);
+                                    i = i + 2;
+                                    break;
+                                case "3":
+                                    newstring.Append((char)4);
+                                    i = i + 2;
+                                    break;
+                                case "4":
+                                    newstring.Append((char)5);
+                                    i = i + 2;
+                                    break;
+                                case "5":
+                                    newstring.Append((char)6);
+                                    i = i + 2;
+                                    break;
+                                case "6":
+                                    newstring.Append((char)7);
+                                    i = i + 2;
+                                    break;
+                                case "7":
+                                    newstring.Append((char)11);
+                                    i = i + 2;
+                                    break;
+                                case "8":
+                                    newstring.Append((char)12);
+                                    i = i + 2;
+                                    break;
+                                case "9":
+                                    newstring.Append((char)14);
+                                    i = i + 2;
+                                    break;
+                                case "r":
+                                    newstring.Append((char)15);
+                                    i = i + 2;
+                                    break;
+                                case "p":
+                                    newstring.Append((char)16);
+                                    i = i + 2;
+                                    break;
+                                case "o":
+                                    newstring.Append((char)17);
+                                    i = i + 2;
+                                    break;
+
+                                default:
+                                    newstring.Append(mystring[i]);
+                                    break;
+                                }
+                            }
+                        else
+                            {
+                            newstring.Append(mystring[i]);
+                            }
+                        }
+                    else
+                        {
+                        newstring.Append(mystring[i]);
+                        }
+                    }
+                return newstring.ToString();
+                }
+
+            /// &lt;summary&gt;
+            /// Send a command to the client to execute the function
+            /// &lt;/summary&gt;
+            /// &lt;param name="client"&gt;Client connection ID, can be a simple or complex type.  i.e. "Client" or "Player.client"&lt;/param&gt;
+            /// &lt;param name="function"&gt;Function to execute.&lt;/param&gt;
+            public void commandToClient(string client, string function)
+                {
+                commandToClient(client, function, new string[] { });
+                }
+
+            /// &lt;summary&gt;
+            /// Send a command to the client to execute the function
+            /// &lt;/summary&gt;
+            /// &lt;param name="client"&gt;Client connection ID, can be a simple or complex type.  i.e. "Client" or "Player.client"&lt;/param&gt;
+            /// &lt;param name="function"&gt;Function to execute.&lt;/param&gt;
+            /// &lt;param name="parameters"&gt;Parameters to pass&lt;/param&gt;
+            public void commandToClient(string client, string function, string[] parameters)
+                {
+                m_ts.CommandToClient(client, function, parameters);
+                }
+
+            /// &lt;summary&gt;
+            /// Sets the passed torque variable to the value
+            /// &lt;/summary&gt;
+            /// &lt;param name="variable"&gt;Torque Variable to change, can be a simple or complex type.  i.e. "Client" or "Player.client"&lt;/param&gt;
+            /// &lt;param name="value"&gt;&lt;/param&gt;
+            public void SetVar(string variable, float value)
+                {
+                m_ts.SetVar(variable, value.AsString());
+                }
+
+            /// &lt;summary&gt;
+            /// Sets the passed torque variable to the value
+            /// &lt;/summary&gt;
+            /// &lt;param name="variable"&gt;Torque Variable to change, can be a simple or complex type.  i.e. "Client" or "Player.client"&lt;/param&gt;
+            /// &lt;param name="value"&gt;&lt;/param&gt;
+            public void SetVar(string variable, double value)
+                {
+                m_ts.SetVar(variable, value.AsString());
+                }
+
+            /// &lt;summary&gt;
+            /// Sets the passed torque variable to the value
+            /// &lt;/summary&gt;
+            /// &lt;param name="variable"&gt;Torque Variable to change, can be a simple or complex type.  i.e. "Client" or "Player.client"&lt;/param&gt;
+            /// &lt;param name="value"&gt;&lt;/param&gt;
+            public void SetVar(UInt32 variable, string value)
+                {
+                m_ts.SetVar(variable.AsString(), value);
+                }
+
+            /// &lt;summary&gt;
+            /// Sets the passed torque variable to the value
+            /// &lt;/summary&gt;
+            /// &lt;param name="variable"&gt;Torque Variable to change, can be a simple or complex type.  i.e. "Client" or "Player.client"&lt;/param&gt;
+            /// &lt;param name="value"&gt;&lt;/param&gt;
+            public void SetVar(UInt32 variable, Int16 value)
+                {
+                m_ts.SetVar(variable.AsString(), value.AsString());
+                }
+
+            /// &lt;summary&gt;
+            /// Sets the passed torque variable to the value
+            /// &lt;/summary&gt;
+            /// &lt;param name="variable"&gt;Torque Variable to change, can be a simple or complex type.  i.e. "Client" or "Player.client"&lt;/param&gt;
+            /// &lt;param name="value"&gt;&lt;/param&gt;
+            public void SetVar(UInt32 variable, Int32 value)
+                {
+                m_ts.SetVar(variable.AsString(), value.AsString());
+                }
+
+            /// &lt;summary&gt;
+            /// Sets the passed torque variable to the value
+            /// &lt;/summary&gt;
+            /// &lt;param name="variable"&gt;Torque Variable to change, can be a simple or complex type.  i.e. "Client" or "Player.client"&lt;/param&gt;
+            /// &lt;param name="value"&gt;&lt;/param&gt;
+            public void SetVar(UInt32 variable, Int64 value)
+                {
+                m_ts.SetVar(variable.AsString(), value.AsString());
+                }
+
+            /// &lt;summary&gt;
+            /// Sets the passed torque variable to the value
+            /// &lt;/summary&gt;
+            /// &lt;param name="variable"&gt;Torque Variable to change, can be a simple or complex type.  i.e. "Client" or "Player.client"&lt;/param&gt;
+            /// &lt;param name="value"&gt;&lt;/param&gt;
+            public void SetVar(UInt32 variable, UInt16 value)
+                {
+                m_ts.SetVar(variable.AsString(), value.AsString());
+                }
+
+            /// &lt;summary&gt;
+            /// Sets the passed torque variable to the value
+            /// &lt;/summary&gt;
+            /// &lt;param name="variable"&gt;Torque Variable to change, can be a simple or complex type.  i.e. "Client" or "Player.client"&lt;/param&gt;
+            /// &lt;param name="value"&gt;&lt;/param&gt;
+            public void SetVar(UInt32 variable, UInt32 value)
+                {
+                m_ts.SetVar(variable.AsString(), value.AsString());
+                }
+
+            /// &lt;summary&gt;
+            /// Sets the passed torque variable to the value
+            /// &lt;/summary&gt;
+            /// &lt;param name="variable"&gt;Torque Variable to change, can be a simple or complex type.  i.e. "Client" or "Player.client"&lt;/param&gt;
+            /// &lt;param name="value"&gt;&lt;/param&gt;
+            public void SetVar(UInt32 variable, UInt64 value)
+                {
+                m_ts.SetVar(variable.AsString(), value.AsString());
+                }
+
+            /// &lt;summary&gt;
+            /// Sets the passed torque variable to the value
+            /// &lt;/summary&gt;
+            /// &lt;param name="variable"&gt;Torque Variable to change, can be a simple or complex type.  i.e. "Client" or "Player.client"&lt;/param&gt;
+            /// &lt;param name="value"&gt;&lt;/param&gt;
+            public void SetVar(UInt32 variable, bool value)
+                {
+                m_ts.SetVar(variable.AsString(), value.AsString());
+                }
+
+            /// &lt;summary&gt;
+            /// Sets the passed torque variable to the value
+            /// &lt;/summary&gt;
+            /// &lt;param name="variable"&gt;Torque Variable to change, can be a simple or complex type.  i.e. "Client" or "Player.client"&lt;/param&gt;
+            /// &lt;param name="value"&gt;&lt;/param&gt;
+            public void SetVar(string variable, string value)
+                {
+                m_ts.SetVar(variable, value);
+                }
+
+            /// &lt;summary&gt;
+            /// Sets the passed torque variable to the value
+            /// &lt;/summary&gt;
+            /// &lt;param name="variable"&gt;Torque Variable to change, can be a simple or complex type.  i.e. "Client" or "Player.client"&lt;/param&gt;
+            /// &lt;param name="value"&gt;&lt;/param&gt;
+            public void SetVar(string variable, Int16 value)
+                {
+                m_ts.SetVar(variable, value.AsString());
+                }
+
+            /// &lt;summary&gt;
+            /// Sets the passed torque variable to the value
+            /// &lt;/summary&gt;
+            /// &lt;param name="variable"&gt;Torque Variable to change, can be a simple or complex type.  i.e. "Client" or "Player.client"&lt;/param&gt;
+            /// &lt;param name="value"&gt;&lt;/param&gt;
+            public void SetVar(string variable, Int32 value)
+                {
+                m_ts.SetVar(variable, value.AsString());
+                }
+
+            /// &lt;summary&gt;
+            /// Sets the passed torque variable to the value
+            /// &lt;/summary&gt;
+            /// &lt;param name="variable"&gt;Torque Variable to change, can be a simple or complex type.  i.e. "Client" or "Player.client"&lt;/param&gt;
+            /// &lt;param name="value"&gt;&lt;/param&gt;
+            public void SetVar(string variable, Int64 value)
+                {
+                m_ts.SetVar(variable, value.AsString());
+                }
+
+            /// &lt;summary&gt;
+            /// Sets the passed torque variable to the value
+            /// &lt;/summary&gt;
+            /// &lt;param name="variable"&gt;Torque Variable to change, can be a simple or complex type.  i.e. "Client" or "Player.client"&lt;/param&gt;
+            /// &lt;param name="value"&gt;&lt;/param&gt;
+            public void SetVar(string variable, UInt16 value)
+                {
+                m_ts.SetVar(variable, value.AsString());
+                }
+
+            /// &lt;summary&gt;
+            /// Sets the passed torque variable to the value
+            /// &lt;/summary&gt;
+            /// &lt;param name="variable"&gt;Torque Variable to change, can be a simple or complex type.  i.e. "Client" or "Player.client"&lt;/param&gt;
+            /// &lt;param name="value"&gt;&lt;/param&gt;
+            public void SetVar(string variable, UInt32 value)
+                {
+                m_ts.SetVar(variable, value.AsString());
+                }
+
+            /// &lt;summary&gt;
+            /// Sets the passed torque variable to the value
+            /// &lt;/summary&gt;
+            /// &lt;param name="variable"&gt;Torque Variable to change, can be a simple or complex type.  i.e. "Client" or "Player.client"&lt;/param&gt;
+            /// &lt;param name="value"&gt;&lt;/param&gt;
+            public void SetVar(string variable, UInt64 value)
+                {
+                m_ts.SetVar(variable, value.AsString());
+                }
+
+            /// &lt;summary&gt;
+            /// Sets the passed torque variable to the value
+            /// &lt;/summary&gt;
+            /// &lt;param name="variable"&gt;Torque Variable to change, can be a simple or complex type.  i.e. "Client" or "Player.client"&lt;/param&gt;
+            /// &lt;param name="value"&gt;&lt;/param&gt;
+            public void SetVar(string variable, bool value)
+                {
+                m_ts.SetVar(variable, value.AsString());
+                }
+
+            /// &lt;summary&gt;
+            /// Sends a command to the server to call the function
+            /// &lt;/summary&gt;
+            /// &lt;param name="function"&gt;&lt;/param&gt;
+            public void commandToServer(string function)
+                {
+                commandToServer(function, new string[] { });
+                }
+
+            /// &lt;summary&gt;
+            /// Sends a command to the server to call the function with passed parameters.
+            /// &lt;/summary&gt;
+            /// &lt;param name="function"&gt;&lt;/param&gt;
+            /// &lt;param name="parameters"&gt;&lt;/param&gt;
+            public void commandToServer(string function, string[] parameters)
+                {
+                m_ts.CommandToServer(function, parameters);
+                }
+
+            /// &lt;summary&gt;
+            /// Gets the passed variable from torque
+            /// Can be object.property.
+            /// &lt;/summary&gt;
+            /// &lt;param name="variable"&gt;Torque Variable to retrieve, can be a simple or complex type.  i.e. "Client" or "Player.client"&lt;/param&gt;
+            /// &lt;returns&gt;&lt;/returns&gt;
+            public string GetVarString(string variable)
+                {
+                return m_ts.GetVar(variable);
+                }
+
+            /// &lt;summary&gt;
+            /// Gets the passed variable from torque
+            /// Can be object.property.
+            /// &lt;/summary&gt;
+            /// &lt;param name="variable"&gt;Torque Variable to retrieve, can be a simple or complex type.  i.e. "Client" or "Player.client"&lt;/param&gt;
+            /// &lt;returns&gt;&lt;/returns&gt;
+            public bool GetVarBool(string variable)
+                {
+                int t = 0;
+                string result = m_ts.GetVar(variable);
+                if (result.Trim().ToLower() == "true")
+                    return true;
+                if (result.Trim().ToLower() == "false")
+                    return false;
+                if (result.Trim().ToLower() == "1")
+                    return true;
+                if (result.Trim().ToLower() == "0")
+                    return false;
+                if (int.TryParse(result, out t))
+                    {
+                    return t &gt; 0;
+                    }
+                return false;
+                }
+
+            /// &lt;summary&gt;
+            /// Gets the passed variable from torque
+            /// Can be object.property.
+            /// &lt;/summary&gt;
+            /// &lt;param name="variable"&gt;Torque Variable to retrieve, can be a simple or complex type.  i.e. "Client" or "Player.client"&lt;/param&gt;
+            /// &lt;returns&gt;&lt;/returns&gt;
+            public int GetVarInt(string variable)
+                {
+               
+                string result = m_ts.GetVar(variable);
+                if (result.Trim().ToLower() == "true")
+                    return 1;
+                if (result.Trim().ToLower() == "false")
+                    return 0;
+                return result.AsInt();
+                }
+
+            /// &lt;summary&gt;
+            /// Gets the passed variable from torque
+            /// Can be object.property.
+            /// &lt;/summary&gt;
+            /// &lt;param name="variable"&gt;Torque Variable to retrieve, can be a simple or complex type.  i.e. "Client" or "Player.client"&lt;/param&gt;
+            /// &lt;returns&gt;&lt;/returns&gt;
+            public float GetVarFloat(string variable)
+                {
+                return m_ts.GetVar(variable).AsFloat();
+                }
+
+            /// &lt;summary&gt;
+            /// Gets the passed variable from torque
+            /// Can be object.property.
+            /// &lt;/summary&gt;
+            /// &lt;param name="variable"&gt;Torque Variable to retrieve, can be a simple or complex type.  i.e. "Client" or "Player.client"&lt;/param&gt;
+            /// &lt;returns&gt;&lt;/returns&gt;
+            public uint GetVarUint(string variable)
+                {
+                return  m_ts.GetVar(variable).AsUint();
+                }
+
+            /// &lt;summary&gt;
+            /// Gets the passed variable from torque
+            /// Can be object.property.
+            /// &lt;/summary&gt;
+            /// &lt;param name="variable"&gt;Torque Variable to retrieve, can be a simple or complex type.  i.e. "Client" or "Player.client"&lt;/param&gt;
+            /// &lt;returns&gt;&lt;/returns&gt;
+            public long GetVarLong(string variable)
+                {
+                return m_ts.GetVar(variable).AsLong();
+                }
+
+            /// &lt;summary&gt;
+            /// Gets the passed variable from torque
+            /// Can be object.property.
+            /// &lt;/summary&gt;
+            /// &lt;param name="variable"&gt;Torque Variable to retrieve, can be a simple or complex type.  i.e. "Client" or "Player.client"&lt;/param&gt;
+            /// &lt;returns&gt;&lt;/returns&gt;
+            internal double GetVarDouble(string variable)
+                {
+                return m_ts.GetVar(variable).AsDouble();
+                }
+
+            /// &lt;summary&gt;
+            /// Posts a warning inside of Torque.
+            /// &lt;/summary&gt;
+            /// &lt;param name="msg"&gt;&lt;/param&gt;
+            public void warn(string msg)
+                {
+                m_ts.Warn(msg);
+                }
+
+            /// &lt;summary&gt;
+            /// Posts a debug message inside of Torque.
+            /// &lt;/summary&gt;
+            /// &lt;param name="msg"&gt;&lt;/param&gt;
+            public void debug(string msg)
+                {
+                if (m_ts.Debugging)
+                    m_ts.Warn(msg);
+                }
+
+            /// &lt;summary&gt;
+            /// Posts a Print message inside of Torque.
+            /// &lt;/summary&gt;
+            /// &lt;param name="msg"&gt;&lt;/param&gt;
+            public void print(string msg)
+                {
+                m_ts.Print(msg);
+                }
+
+            /// &lt;summary&gt;
+            /// Posts an Error  message inside of Torque.
+            /// &lt;/summary&gt;
+            /// &lt;param name="msg"&gt;&lt;/param&gt;
+            public void error(string msg)
+                {
+                m_ts.Error(msg);
+                }
+
+            /// &lt;summary&gt;
+            /// Determines if the number or string is a object.
+            /// &lt;/summary&gt;
+            /// &lt;param name="simobject"&gt;Torque Variable to check, can be a simple or complex type.  i.e. "Client" or "Player.client"&lt;/param&gt;
+            /// &lt;returns&gt;&lt;/returns&gt;
+            public bool isObject(string simobject)
+                {
+                return m_ts.IsObject(simobject);
+                }
+
+            /// &lt;summary&gt;
+            /// Calls clearServerPaths on the console.
+            /// &lt;/summary&gt;
+            public void clearServerPaths()
+                {
+                m_ts.ClearServerPaths();
+                }
+
+            /// &lt;summary&gt;
+            /// Deletes the variable inside of torque.
+            /// &lt;/summary&gt;
+            /// &lt;param name="var_name"&gt;&lt;/param&gt;
+            public void deleteVariables(string var_name)
+                {
+                m_ts.DeleteVariables(var_name);
+                }
+
+            /// &lt;summary&gt;
+            /// Determines if the class is a member of the superclass.
+            /// &lt;/summary&gt;
+            /// &lt;param name="classname"&gt;&lt;/param&gt;
+            /// &lt;param name="superclassname"&gt;&lt;/param&gt;
+            /// &lt;returns&gt;&lt;/returns&gt;
+            public bool isMemberOfClass(string classname, string superclassname)
+                {
+                return m_ts.IsMemberOfClass(classname, superclassname);
+                }
+
+            /// &lt;summary&gt;
+            /// Determines if the object has the passed method.
+            /// &lt;/summary&gt;
+            /// &lt;param name="simobject"&gt;Torque Variable to check, can be a simple or complex type.  i.e. "Client" or "Player.client"&lt;/param&gt;
+            /// &lt;param name="method"&gt;&lt;/param&gt;
+            /// &lt;returns&gt;&lt;/returns&gt;
+            public bool objectHasMethod(string simobject, string method)
+                {
+                return m_ts.ObjectHasMethod(simobject, method);
+                }
+
+            /// &lt;summary&gt;
+            /// Adds a tagged string into the dictionary and returns it's tag id.
+            /// &lt;/summary&gt;
+            /// &lt;param name="mystring"&gt;&lt;/param&gt;
+            /// &lt;returns&gt;&lt;/returns&gt;
+            public string addTaggedString(string mystring)
+                {
+                return m_ts.AddTaggedString(mystring);
+                }
+
+            /// &lt;summary&gt;
+            /// Returns the classname for the simobject.
+            /// &lt;/summary&gt;
+            /// &lt;param name="simobject"&gt;&lt;/param&gt;
+            /// &lt;returns&gt;&lt;/returns&gt;
+            public string GetClassName(string simobject)
+                {
+                return m_ts.GetClassName(simobject);
+                }
+
+            /// &lt;summary&gt;
+            /// Returns the simobjectid for the simobject name.
+            /// &lt;/summary&gt;
+            /// &lt;param name="simobj_id"&gt;&lt;/param&gt;
+            /// &lt;returns&gt;&lt;/returns&gt;
+            public UInt32 GetObjectID(string simobj_id)
+                {
+                return m_ts.GetObjectID(simobj_id);
+                }
+
+            /// &lt;summary&gt;
+            /// Returns the name of the object (passed by id)
+            /// &lt;/summary&gt;
+            /// &lt;param name="name"&gt;&lt;/param&gt;
+            /// &lt;returns&gt;&lt;/returns&gt;
+            public Int32 nameToID(string name)
+                {
+                return m_ts.NameToId(name);
+                }
+
+            /// &lt;summary&gt;
+            /// Gets the name of the id.
+            /// &lt;/summary&gt;
+            /// &lt;param name="simobject"&gt;&lt;/param&gt;
+            /// &lt;returns&gt;&lt;/returns&gt;
+            public string getName(string simobject)
+                {
+                return m_ts.GetName(simobject);
+                }
+
+            /// &lt;summary&gt;
+            /// Evaluates the passed script and returns the resultant.
+            /// &lt;/summary&gt;
+            /// &lt;param name="script"&gt;&lt;/param&gt;
+            /// &lt;param name="retval"&gt;&lt;/param&gt;
+            /// &lt;returns&gt;&lt;/returns&gt;
+            public string Eval(string script, bool retval)
+                {
+                return m_ts.Evaluate(script, retval);
+                }
+
+            /// &lt;summary&gt;
+            /// Executes the passed script.
+            /// &lt;/summary&gt;
+            /// &lt;param name="script"&gt;&lt;/param&gt;
+            public void Eval(string script)
+                {
+                m_ts.Evaluate(script, false);
+                }
+
+
+            /// &lt;summary&gt;
+            /// Determines if the function is in the global name space.
+            /// &lt;/summary&gt;
+            /// &lt;param name="function_name"&gt;&lt;/param&gt;
+            /// &lt;returns&gt;&lt;/returns&gt;
+            public bool isFunction(string function_name)
+                {
+                return m_ts.IsFunction(function_name);
+                }
+
+            /// &lt;summary&gt;
+            /// Returns the Euler Rotation to the object.
+            /// &lt;/summary&gt;
+            /// &lt;param name="simobject"&gt;&lt;/param&gt;
+            /// &lt;returns&gt;&lt;/returns&gt;
+            public TransformF getEulerRotation(string simobject)
+                {
+                return m_ts.GetEulerRotation(simobject);
+                }
+
+            /// &lt;summary&gt;
+            /// Returns a list of simobject id's in the radius of the search.
+            /// &lt;/summary&gt;
+            /// &lt;param name="p"&gt;&lt;/param&gt;
+            /// &lt;param name="searchradius"&gt;&lt;/param&gt;
+            /// &lt;param name="searchmask"&gt;&lt;/param&gt;
+            /// &lt;param name="useclientcontainer"&gt;&lt;/param&gt;
+            /// &lt;returns&gt;&lt;/returns&gt;
+            public List&lt;UInt32&gt; ContainerRadiusSearch(Point3F p, double searchradius, UInt32 searchmask, bool useclientcontainer)
+                {
+                return m_ts.ContainerRadiusSearch(p, searchradius, searchmask, useclientcontainer);
+                }
+
+            /// &lt;summary&gt;
+            /// Calls pathOnMissionLoadDone inside of Torque.
+            /// &lt;/summary&gt;
+            public void pathOnMissionLoadDone()
+                {
+                m_ts.PathOnMissionLoadDone();
+                }
+
+            /// &lt;summary&gt;
+            /// Returns the datablock associated with the simobject.
+            /// &lt;/summary&gt;
+            /// &lt;param name="simobject"&gt;&lt;/param&gt;
+            /// &lt;returns&gt;&lt;/returns&gt;
+            public UInt32 getDatablock(string simobject)
+                {
+                return m_ts.GetDatablock(simobject);
+                }
+
+            /// &lt;summary&gt;
+            /// Determines if the field is a member of the object.
+            /// &lt;/summary&gt;
+            /// &lt;param name="simobject_id"&gt;&lt;/param&gt;
+            /// &lt;param name="fieldname"&gt;&lt;/param&gt;
+            /// &lt;returns&gt;&lt;/returns&gt;
+            public bool isField(string simobject_id, string fieldname)
+                {
+                return m_ts.SimObjectIsField(simobject_id, fieldname);
+                }
+
+
+            }
+               /// &lt;summary&gt;
+        /// 
+        /// &lt;/summary&gt;
+        public class tMath
+            {
+            /// &lt;summary&gt;
+            /// 
+            /// &lt;/summary&gt;
+            private Omni m_ts;
+            /// &lt;summary&gt;
+            /// 
+            /// &lt;/summary&gt;
+            /// &lt;param name="ts"&gt;&lt;/param&gt;
+            public tMath(ref Omni ts)
+                {
+                m_ts = ts;
+                }
+            /// &lt;summary&gt;
+            /// 
+            /// &lt;/summary&gt;
+            public static double M_2PI_F
+                {
+                get { return 3.1415926535897932384626433f * 2.0f; }
+                }
+            /// &lt;summary&gt;
+            /// 
+            /// &lt;/summary&gt;
+            /// &lt;param name="transform"&gt;&lt;/param&gt;
+            /// &lt;param name="vector"&gt;&lt;/param&gt;
+            /// &lt;returns&gt;&lt;/returns&gt;
+            public TransformF MatrixMulVector(TransformF transform, Point3F vector)
+                {
+                return m_ts.MathMatrixMulVector(transform, vector);
+                }
+            /// &lt;summary&gt;
+            /// 
+            /// &lt;/summary&gt;
+            /// &lt;param name="d"&gt;&lt;/param&gt;
+            /// &lt;returns&gt;&lt;/returns&gt;
+            public static double mDegToRad(double d)
+                {
+                return ((d * Math.PI) / 180.0);
+                }
+            /// &lt;summary&gt;
+            /// 
+            /// &lt;/summary&gt;
+            /// &lt;param name="r"&gt;&lt;/param&gt;
+            /// &lt;returns&gt;&lt;/returns&gt;
+            public static double mRadToDeg(double r)
+                {
+                return ((r * 180.0) / Math.PI);
+                }
+            /// &lt;summary&gt;
+            /// 
+            /// &lt;/summary&gt;
+            /// &lt;param name="transform"&gt;&lt;/param&gt;
+            /// &lt;returns&gt;&lt;/returns&gt;
+            public TransformF MatrixCreateFromEuler(TransformF transform)
+                {
+                return m_ts.MathMatrixCreateFromEuler(transform);
+                }
+            }
+        #endregion
+		/// &lt;summary&gt;
+        /// 
+        /// &lt;/summary&gt;
+        public pInvokes()
+            {
+            m_ts = Omni.self;
+            SetUp(ref m_ts);
+            }
+
+        /// &lt;summary&gt;
+        /// Container Class for all the properties for organization.
+        /// &lt;/summary&gt;
+        /// &lt;param name="c"&gt;&lt;/param&gt;
+        public pInvokes(ref Omni c)
+            {
+			SetUp(ref c);
+			}
+
+		public void SetUp(ref Omni c)
+            {
+            m_ts = c;
+            _mConsoleobject = new ConsoleObject(ref c);
+            _mMathobject = new tMath(ref c);
+            ###INSERTAUTOGEN###
+        }
+    }</value>
+  </data>
+  <data name="SafeNativeMethods_cs_txt" xml:space="preserve">
+    <value>// Copyright (C) 2012 Winterleaf Entertainment L,L,C.
+
+
+using System;
+using System.Runtime.InteropServices;
+using System.Text;
+using WinterLeaf.Engine.Classes.Helpers;
+
+namespace WinterLeaf.Engine.Classes.Interopt
+    {
+
+    /// &lt;summary&gt;
+    /// Contains all of the externs available from T3D dll.
+    /// &lt;/summary&gt;
+
+    internal static class SafeNativeMethods
+        {
+
+        static internal bool consolemapped = false;
+
+        static internal void FreeDLL()
+            {
+            ClearConsoleExterns();
+            ClearAutoExterns();
+            dllLoadUtils.FreeLibrary(DLLptr);
+            }
+
+
+        #region NewCode
+
+
+
+
+        internal static SetHandler_SimIdDictionary mSetHandler_SimIdDictionary;
+        internal static ClearHandler_SimIdDictionary mClearHandler_SimIdDictionary;
+
+        internal static SetEngineCallback mSetEngineCallback;
+        internal static ClearEngineCallback mClearEngineCallback;
+
+        internal static SetGlobalFunctionCallback mSetGlobalFunctionCallback;
+        internal static ClearGlobalFunctionCallback mClearGlobalFunctionCallback;
+
+        internal static SetExportVariablesAsSettings mSetExportVariablesAsSettings;
+        internal static ClearExportVariablesAsSettings mClearExportVariablesAsSettings;
+
+        [UnmanagedFunctionPointer(CallingConvention.Cdecl, CharSet = CharSet.Ansi, SetLastError = true)]
+        internal delegate IntPtr SetExportVariablesAsSettings(WLE_ExportVariablesAsSettings fn);
+
+        [UnmanagedFunctionPointer(CallingConvention.Cdecl, CharSet = CharSet.Ansi, SetLastError = true)]
+        internal delegate IntPtr ClearExportVariablesAsSettings();
+
+
+        internal static WLE_ExportVariablesAsSettings mWLE_ExportVariablesAsSettings;
+        internal static WLE_EngineCallBack mEngineCallBack;
+        internal static WLE_GlobalFunctionCallBack mWLE_GlobalFunction;
+
+        internal delegate void WLE_EngineCallBack([In] int simobjectid, [In] int WLE_OMNI_ARRAY_POSTION, int argc, IntPtr argv, [MarshalAs(UnmanagedType.LPArray, SizeConst = 8000)] [In][Out]byte[] buffer);
+        internal delegate void WLE_GlobalFunctionCallBack(int argc, IntPtr argv, [MarshalAs(UnmanagedType.LPArray, SizeConst = 8000)] [In] [Out] byte[] buffer);
+
+        internal delegate void RegisterSimObject_Callback([In] int simobjectid, [In] bool add, [In] StringBuilder ClassNameSpace, [In] StringBuilder ClassName);
+        internal delegate void WLE_ExportVariablesAsSettings([In] StringBuilder filename, [In] StringBuilder variablename, [In] StringBuilder value, [In] bool append);
+
+
+        internal static SetWLE_setIcon m_SetWLE_setIcon;
+        internal static ClearWLE_setIcon mClearWLE_setIcon;//m_SetWLE_setIcon
+
+        internal delegate void setIcon_Callback(IntPtr appInstance);
+
+        [UnmanagedFunctionPointer(CallingConvention.Cdecl, CharSet = CharSet.Ansi, SetLastError = true)]
+        internal delegate IntPtr SetWLE_setIcon(setIcon_Callback fn);
+
+        [UnmanagedFunctionPointer(CallingConvention.Cdecl, CharSet = CharSet.Ansi, SetLastError = true)]
+        internal delegate IntPtr ClearWLE_setIcon();
+
+
+
+        internal static SetWLE_IsFunction mSetWLE_IsFunction;
+        internal static ClearWLE_IsFunction mClearWLE_IsFunction;
+
+        internal delegate int isFunction_Callback([In] int simobjectid, [In]int WLE_OMNI_ARRAY_POSITION, [In] StringBuilder function);
+
+        [UnmanagedFunctionPointer(CallingConvention.Cdecl, CharSet = CharSet.Ansi, SetLastError = true)]
+        internal delegate IntPtr SetWLE_IsFunction(isFunction_Callback fn);
+
+        [UnmanagedFunctionPointer(CallingConvention.Cdecl, CharSet = CharSet.Ansi, SetLastError = true)]
+        internal delegate IntPtr ClearWLE_IsFunction();
+
+		        internal static SetWLE_gIsFunction mSetWLE_gIsFunction;
+        internal static ClearWLE_gIsFunction mClearWLE_gIsFunction;
+
+        internal delegate int gisFunction_Callback([In] StringBuilder function);
+
+        [UnmanagedFunctionPointer(CallingConvention.Cdecl, CharSet = CharSet.Ansi, SetLastError = true)]
+        internal delegate IntPtr SetWLE_gIsFunction(gisFunction_Callback fn);
+
+        [UnmanagedFunctionPointer(CallingConvention.Cdecl, CharSet = CharSet.Ansi, SetLastError = true)]
+        internal delegate IntPtr ClearWLE_gIsFunction();
+
+
+        [UnmanagedFunctionPointer(CallingConvention.Cdecl, CharSet = CharSet.Ansi, SetLastError = true)]
+        internal delegate IntPtr SetHandler_SimIdDictionary(RegisterSimObject_Callback fn);
+
+        [UnmanagedFunctionPointer(CallingConvention.Cdecl, CharSet = CharSet.Ansi, SetLastError = true)]
+        internal delegate IntPtr ClearHandler_SimIdDictionary();
+
+        [UnmanagedFunctionPointer(CallingConvention.Cdecl, CharSet = CharSet.Ansi, SetLastError = true)]
+        internal delegate IntPtr SetEngineCallback(WLE_EngineCallBack fn);
+
+        [UnmanagedFunctionPointer(CallingConvention.Cdecl, CharSet = CharSet.Ansi, SetLastError = true)]
+        internal delegate IntPtr ClearEngineCallback();
+
+        [UnmanagedFunctionPointer(CallingConvention.Cdecl, CharSet = CharSet.Ansi, SetLastError = true)]
+        internal delegate IntPtr SetGlobalFunctionCallback(WLE_GlobalFunctionCallBack fn);
+
+        [UnmanagedFunctionPointer(CallingConvention.Cdecl, CharSet = CharSet.Ansi, SetLastError = true)]
+        internal delegate IntPtr ClearGlobalFunctionCallback();
+
+        #endregion
+
+
+
+
+        #region Console unmanaged function pointer delegates
+        [UnmanagedFunctionPointer(CallingConvention.Cdecl, CharSet = CharSet.Ansi, SetLastError = true)]
+        internal delegate void Classname_Call([MarshalAs(UnmanagedType.LPStr), In] StringBuilder className, [MarshalAs(UnmanagedType.LPStr), In] StringBuilder function, Int32 argc, IntPtr[] argv, [MarshalAs(UnmanagedType.LPStr), Out] StringBuilder ret, bool debug);
+        [UnmanagedFunctionPointer(CallingConvention.Cdecl, CharSet = CharSet.Ansi, SetLastError = true)]
+        internal delegate void ConsoleCall([MarshalAs(UnmanagedType.LPStr), In] StringBuilder command, [MarshalAs(UnmanagedType.LPStr), Out] StringBuilder response, bool echo);
+        [UnmanagedFunctionPointer(CallingConvention.Cdecl, CharSet = CharSet.Ansi, SetLastError = true)]
+        internal delegate void Console_errorf([MarshalAs(UnmanagedType.LPStr), In] StringBuilder message);
+        [UnmanagedFunctionPointer(CallingConvention.Cdecl, CharSet = CharSet.Ansi, SetLastError = true)]
+        internal delegate int Console_getSimTime();
+        [UnmanagedFunctionPointer(CallingConvention.Cdecl, CharSet = CharSet.Ansi, SetLastError = true)]
+        internal delegate void Console_printf([MarshalAs(UnmanagedType.LPStr), In] StringBuilder message);
+        [UnmanagedFunctionPointer(CallingConvention.Cdecl, CharSet = CharSet.Ansi, SetLastError = true)]
+        internal delegate void Console_warnf([MarshalAs(UnmanagedType.LPStr), In] StringBuilder message);
+        [UnmanagedFunctionPointer(CallingConvention.Cdecl, CharSet = CharSet.Ansi, SetLastError = true)]
+        internal delegate Int32 ContainerRadiusSearch([In] float x, [In] float y, [In] float z, [In] float searchRadius, [In] UInt32 searchMask, [In] bool useClientContainer, [Out, MarshalAs(UnmanagedType.SafeArray, SafeArraySubType = VarEnum.VT_UI4)]  UInt32[] foundobjectIds);
+        [UnmanagedFunctionPointer(CallingConvention.Cdecl, CharSet = CharSet.Ansi, SetLastError = true)]
+        internal delegate UInt32 GetObjectID([MarshalAs(UnmanagedType.LPStr), In] StringBuilder simobj_id);
+        [UnmanagedFunctionPointer(CallingConvention.Cdecl, CharSet = CharSet.Ansi, SetLastError = true)]
+        internal delegate void Math_MatrixCreateFromEuler(float x, float y, float z, [MarshalAs(UnmanagedType.LPStr), Out]  StringBuilder result);
+        [UnmanagedFunctionPointer(CallingConvention.Cdecl, CharSet = CharSet.Ansi, SetLastError = true)]
+        internal delegate void Math_MatrixMulVector(float x, float y, float z, float ang, float ax, float ay, float az, float XX, float YY, float ZZ, [MarshalAs(UnmanagedType.LPStr), Out]  StringBuilder retval);
+        [UnmanagedFunctionPointer(CallingConvention.Cdecl, CharSet = CharSet.Ansi, SetLastError = true)]
+        internal delegate bool NameSpace_isInNamespaceHierarchy([MarshalAs(UnmanagedType.LPStr), In]  StringBuilder simobject_id, [MarshalAs(UnmanagedType.LPStr), In]  StringBuilder name);
+        [UnmanagedFunctionPointer(CallingConvention.Cdecl, CharSet = CharSet.Ansi, SetLastError = true)]
+        internal delegate bool NameSpace_isMethod([MarshalAs(UnmanagedType.LPStr), In] StringBuilder namespaceorobject, [MarshalAs(UnmanagedType.LPStr), In] StringBuilder method);
+        [UnmanagedFunctionPointer(CallingConvention.Cdecl, CharSet = CharSet.Ansi, SetLastError = true)]
+        internal delegate void ParentCall([MarshalAs(UnmanagedType.LPStr), In] StringBuilder simobject, [MarshalAs(UnmanagedType.LPStr), In] StringBuilder function, [In] int namespacedepth, [MarshalAs(UnmanagedType.LPStr), Out] StringBuilder result, [In] int argc, IntPtr[] argv, bool debug);
+        [UnmanagedFunctionPointer(CallingConvention.Cdecl, CharSet = CharSet.Ansi, SetLastError = true)]
+        internal delegate void ParentCallFunct([MarshalAs(UnmanagedType.LPStr), In] StringBuilder function, [In] int namespacedepth, [MarshalAs(UnmanagedType.LPStr), Out] StringBuilder result, [In] int argc, IntPtr[] argv, bool debug);
+        [UnmanagedFunctionPointer(CallingConvention.Cdecl, CharSet = CharSet.Ansi, SetLastError = true)]
+        internal delegate UInt32 SceneObject_getTypeMask([MarshalAs(UnmanagedType.LPStr), In]  StringBuilder _SceneObject);
+        [UnmanagedFunctionPointer(CallingConvention.Cdecl, CharSet = CharSet.Ansi, SetLastError = true)]
+        internal delegate void SceneObject_initContainerRadiusSearch(float x, float y, float z, float radius, UInt32 mask, bool useClientContainer, [MarshalAs(UnmanagedType.LPArray), Out]  UInt32[] results, [MarshalAs(UnmanagedType.LPArray), Out]  float[] distresults);
+
+        [UnmanagedFunctionPointer(CallingConvention.Cdecl, CharSet = CharSet.Ansi, SetLastError = true)]
+        internal delegate void SimObject_CallScript([MarshalAs(UnmanagedType.LPStr), In]  StringBuilder simobject_id, Int32 argc, IntPtr[] argv, [MarshalAs(UnmanagedType.LPStr), Out]  StringBuilder ret);
+        [UnmanagedFunctionPointer(CallingConvention.Cdecl, CharSet = CharSet.Ansi, SetLastError = true)]
+        internal delegate void SimObject_Call([MarshalAs(UnmanagedType.LPStr), In]  StringBuilder simobject_id, Int32 argc, IntPtr[] argv, [MarshalAs(UnmanagedType.LPStr), Out]  StringBuilder ret);
+        [UnmanagedFunctionPointer(CallingConvention.Cdecl, CharSet = CharSet.Ansi, SetLastError = true)]
+        internal delegate void addTaggedString([MarshalAs(UnmanagedType.LPStr), In] StringBuilder mystring, [MarshalAs(UnmanagedType.LPStr), Out] StringBuilder result);
+        [UnmanagedFunctionPointer(CallingConvention.Cdecl, CharSet = CharSet.Ansi, SetLastError = true)]
+        internal delegate void clearServerPaths();
+        [UnmanagedFunctionPointer(CallingConvention.Cdecl, CharSet = CharSet.Ansi, SetLastError = true)]
+        internal delegate UInt32 clientGroup_getCount();
+        [UnmanagedFunctionPointer(CallingConvention.Cdecl, CharSet = CharSet.Ansi, SetLastError = true)]
+        internal delegate UInt32 clientGroup_getObject([In] UInt32 index);
+        [UnmanagedFunctionPointer(CallingConvention.Cdecl, CharSet = CharSet.Ansi, SetLastError = true)]
+        internal delegate void commandToClient(Int32 argc, IntPtr[] argv);
+        [UnmanagedFunctionPointer(CallingConvention.Cdecl, CharSet = CharSet.Ansi, SetLastError = true)]
+        internal delegate void commandToServer(Int32 argc, IntPtr[] argv);
+        [UnmanagedFunctionPointer(CallingConvention.Cdecl, CharSet = CharSet.Ansi, SetLastError = true)]
+        internal delegate void cs_torque_getvariable([MarshalAs(UnmanagedType.LPStr), In]  StringBuilder name, [MarshalAs(UnmanagedType.LPStr), Out]  StringBuilder response);
+        [UnmanagedFunctionPointer(CallingConvention.Cdecl, CharSet = CharSet.Ansi, SetLastError = true)]
+        internal delegate void cs_torque_setvariable([MarshalAs(UnmanagedType.LPStr), In]  StringBuilder name, [MarshalAs(UnmanagedType.LPStr), In]  StringBuilder value);
+        [UnmanagedFunctionPointer(CallingConvention.Cdecl, CharSet = CharSet.Ansi, SetLastError = true)]
+        internal delegate void deleteVariables([MarshalAs(UnmanagedType.LPStr), In] StringBuilder pattern);
+        [UnmanagedFunctionPointer(CallingConvention.Cdecl, CharSet = CharSet.Ansi, SetLastError = true)]
+        internal delegate void execute(Int32 argc, IntPtr[] argv, [MarshalAs(UnmanagedType.LPStr), Out]  StringBuilder ret);
+
+        [UnmanagedFunctionPointer(CallingConvention.Cdecl, CharSet = CharSet.Ansi, SetLastError = true)]
+        internal delegate void executeScript(Int32 argc, IntPtr[] argv, [MarshalAs(UnmanagedType.LPStr), Out]  StringBuilder ret);
+
+
+        [UnmanagedFunctionPointer(CallingConvention.Cdecl, CharSet = CharSet.Ansi, SetLastError = true)]
+        internal delegate void getClassName([MarshalAs(UnmanagedType.LPStr), In] StringBuilder simobject, [MarshalAs(UnmanagedType.LPStr), Out] StringBuilder ret);
+        [UnmanagedFunctionPointer(CallingConvention.Cdecl, CharSet = CharSet.Ansi, SetLastError = true)]
+        internal delegate UInt32 getDataBlock([MarshalAs(UnmanagedType.LPStr), In] StringBuilder simobject);
+        [UnmanagedFunctionPointer(CallingConvention.Cdecl, CharSet = CharSet.Ansi, SetLastError = true)]
+        internal delegate void getName(uint simobject, [MarshalAs(UnmanagedType.LPStr), Out] StringBuilder ret);
+        [UnmanagedFunctionPointer(CallingConvention.Cdecl, CharSet = CharSet.Ansi, SetLastError = true)]
+        internal delegate void getTaggedString([MarshalAs(UnmanagedType.LPStr), In] StringBuilder tag, [MarshalAs(UnmanagedType.LPStr), Out] StringBuilder result);
+        [UnmanagedFunctionPointer(CallingConvention.Cdecl, CharSet = CharSet.Ansi, SetLastError = true)]
+        internal delegate bool isFunction([MarshalAs(UnmanagedType.LPStr), In] StringBuilder functionname);
+        [UnmanagedFunctionPointer(CallingConvention.Cdecl, CharSet = CharSet.Ansi, SetLastError = true)]
+        internal delegate Int32 nameToID([MarshalAs(UnmanagedType.LPStr), In] StringBuilder name);
+        [UnmanagedFunctionPointer(CallingConvention.Cdecl, CharSet = CharSet.Ansi, SetLastError = true)]
+        internal delegate bool objectHasMethod([MarshalAs(UnmanagedType.LPStr), In] StringBuilder simobject, [MarshalAs(UnmanagedType.LPStr), In] StringBuilder method);
+        [UnmanagedFunctionPointer(CallingConvention.Cdecl, CharSet = CharSet.Ansi, SetLastError = true)]
+        internal delegate void removeTaggedString([MarshalAs(UnmanagedType.LPStr), In] StringBuilder tag);
+        [UnmanagedFunctionPointer(CallingConvention.Cdecl, CharSet = CharSet.Ansi, SetLastError = true)]
+        internal delegate UInt32 spawnObject([MarshalAs(UnmanagedType.LPStr), In] StringBuilder _spawnClass, [MarshalAs(UnmanagedType.LPStr), In] StringBuilder _spawnDataBlock, [MarshalAs(UnmanagedType.LPStr), In] StringBuilder _spawnName, [MarshalAs(UnmanagedType.LPStr), In] StringBuilder _spawnProperties, [MarshalAs(UnmanagedType.LPStr), In] StringBuilder _spawnScript);
+        [UnmanagedFunctionPointer(CallingConvention.Cdecl, CharSet = CharSet.Ansi, SetLastError = true)]
+        internal delegate bool SimObject_isField([MarshalAs(UnmanagedType.LPStr)] [In] StringBuilder simobject_id, [MarshalAs(UnmanagedType.LPStr)] [In] StringBuilder fieldname);
+        [UnmanagedFunctionPointer(CallingConvention.Cdecl, CharSet = CharSet.Ansi, SetLastError = true)]
+        internal delegate bool isObject([MarshalAs(UnmanagedType.LPStr)] [In] StringBuilder message);
+        [UnmanagedFunctionPointer(CallingConvention.Cdecl, CharSet = CharSet.Ansi, SetLastError = true)]
+        internal delegate IntPtr torque_engineinit([In] int argc, [In] IntPtr[] argv);
+        [UnmanagedFunctionPointer(CallingConvention.Cdecl, CharSet = CharSet.Ansi, SetLastError = true)]
+        internal delegate int torque_enginetick();
+        [UnmanagedFunctionPointer(CallingConvention.Cdecl, CharSet = CharSet.Ansi, SetLastError = true)]
+        internal delegate bool torque_engineshutdown();
+        [UnmanagedFunctionPointer(CallingConvention.Cdecl, CharSet = CharSet.Ansi, SetLastError = true)]
+        internal delegate void torque_setwebdeployment();
+        [UnmanagedFunctionPointer(CallingConvention.Cdecl, CharSet = CharSet.Ansi, SetLastError = true)]
+        internal delegate void torque_enginesignalshutdown();
+        [UnmanagedFunctionPointer(CallingConvention.Cdecl, CharSet = CharSet.Ansi, SetLastError = true)]
+        internal delegate void torque_reset();
+        [UnmanagedFunctionPointer(CallingConvention.Cdecl, CharSet = CharSet.Ansi, SetLastError = true)]
+        internal delegate void torque_resizewindow([In] int width, [In] int height);
+        [UnmanagedFunctionPointer(CallingConvention.Cdecl, CharSet = CharSet.Ansi, SetLastError = true)]
+        internal delegate void getEulerRotation([MarshalAs(UnmanagedType.LPStr)] [In] StringBuilder simobject, [Out] float x, [Out] float y, [Out] float z);
+        [UnmanagedFunctionPointer(CallingConvention.Cdecl, CharSet = CharSet.Ansi, SetLastError = true)]
+        internal delegate bool isMemberOfClass([MarshalAs(UnmanagedType.LPStr)] [In] StringBuilder className, [MarshalAs(UnmanagedType.LPStr)] [In] StringBuilder superClassName);
+        [UnmanagedFunctionPointer(CallingConvention.Cdecl, CharSet = CharSet.Ansi, SetLastError = true)]
+        internal delegate void pathOnMissionLoadDone();
+        [UnmanagedFunctionPointer(CallingConvention.Cdecl, CharSet = CharSet.Ansi, SetLastError = true)]
+        internal delegate int dnt_torque_engineinit([In] int argc, [In] IntPtr[] argv, IntPtr hinstance);
+
+        [UnmanagedFunctionPointer(CallingConvention.Cdecl, CharSet = CharSet.Ansi, SetLastError = true)]
+        internal delegate IntPtr torque_gethwnd();
+
+        // void* torque_gethwnd()
+        #endregion
+
+        #region Console static function pointers
+
+        internal static executeScript mexecuteScript;
+        internal static torque_gethwnd mtorque_gethwnd;
+        internal static dnt_torque_engineinit mdnt_torque_engineinit;
+        static internal getEulerRotation mgetEulerRotation;
+        static internal isMemberOfClass misMemberOfClass;
+        static internal pathOnMissionLoadDone mpathOnMissionLoadDone;
+        static internal SimObject_isField mSimObject_isField;
+        static internal Classname_Call mClassname_Call;
+        static internal ConsoleCall mConsoleCall;
+        static internal Console_errorf mConsole_errorf;
+        static internal Console_getSimTime mConsole_getSimTime;
+        static internal Console_printf mConsole_printf;
+        static internal Console_warnf mConsole_warnf;
+        static internal ContainerRadiusSearch mContainerRadiusSearch;
+        static internal GetObjectID mGetObjectID;
+        static internal Math_MatrixCreateFromEuler mMath_MatrixCreateFromEuler;
+        static internal Math_MatrixMulVector mMath_MatrixMulVector;
+        static internal NameSpace_isInNamespaceHierarchy mNameSpace_isInNamespaceHierarchy;
+        static internal NameSpace_isMethod mNameSpace_isMethod;
+        static internal ParentCall mParentCall;
+        static internal ParentCallFunct mParentCallFunct;
+        static internal SceneObject_getTypeMask mSceneObject_getTypeMask;
+        static internal SceneObject_initContainerRadiusSearch mSceneObject_initContainerRadiusSearch;
+        static internal SimObject_Call mSimObject_Call;
+        static internal SimObject_CallScript mSimObject_CallScript;
+        static internal addTaggedString maddTaggedString;
+        static internal clearServerPaths mclearServerPaths;
+        static internal clientGroup_getCount mclientGroup_getCount;
+        static internal clientGroup_getObject mclientGroup_getObject;
+        static internal commandToClient mcommandToClient;
+        static internal commandToServer mcommandToServer;
+        static internal cs_torque_getvariable mcs_torque_getvariable;
+        static internal cs_torque_setvariable mcs_torque_setvariable;
+        static internal deleteVariables mdeleteVariables;
+        static internal execute mexecute;
+        static internal getClassName mgetClassName;
+        static internal getDataBlock mgetDataBlock;
+        static internal getName mgetName;
+        static internal getTaggedString mgetTaggedString;
+        static internal isFunction misFunction;
+        static internal nameToID mnameToID;
+        static internal objectHasMethod mobjectHasMethod;
+        static internal removeTaggedString mremoveTaggedString;
+        static internal spawnObject mspawnObject;
+        static internal isObject misObject;
+        static internal torque_engineinit mtorque_engineinit;
+        static internal torque_enginetick mtorque_enginetick;
+        static internal torque_engineshutdown mtorque_engineshutdown;
+        static internal torque_setwebdeployment mtorque_setwebdeployment;
+        static internal torque_enginesignalshutdown mtorque_enginesignalshutdown;
+        static internal torque_reset mtorque_reset;
+        static internal torque_resizewindow mtorque_resizewindow;
+        #endregion
+
+        static IntPtr DLLptr = IntPtr.Zero;
+
+
+        internal static IntPtr GetProcAddress(String InModule, String InSymbolName)
+            {
+            return dllLoadUtils.GetProcAddress(DLLptr, InSymbolName);
+            }
+
+
+        internal static LibraryManager.DllLoadUtils dllLoadUtils = null;
+
+        static internal void SetUpDynamicDLL(String dllname)
+            {
+
+            dllLoadUtils = LibraryManager.IsLinux() ? (LibraryManager.DllLoadUtils)new LibraryManager.DllLoadUtilsLinux() : new LibraryManager.DllLoadUtilsWindows();
+
+            if (LibraryManager.IsLinux())
+                {
+
+                dllname = dllname + ".so";// IntPtr.Size == 8 ? "mylib64.so" : "mylib32.so";
+                }
+            else
+                {
+
+                dllname = dllname + ".dll";// IntPtr.Size == 8 ? "mylib64.dll" : "mylib32.dll";
+                }
+
+            DLLptr = dllLoadUtils.LoadLibrary(dllname);
+
+            if (DLLptr == IntPtr.Zero)
+                throw new Exception("Failed to find or load dll");
+            MapConsoleExterns(dllname);
+            MapDynamicExterns(dllname);
+            consolemapped = true;
+            }
+        static private void ClearConsoleExterns()
+            {
+            mexecuteScript = null;
+            mSetGlobalFunctionCallback = null;
+            mClearGlobalFunctionCallback = null;
+
+            mSetHandler_SimIdDictionary = null;
+            mClearHandler_SimIdDictionary = null;
+            mEngineCallBack = null;
+            mtorque_gethwnd = null;
+            mdnt_torque_engineinit = null;
+            mgetEulerRotation = null;
+            misMemberOfClass = null;
+            mpathOnMissionLoadDone = null;
+            mtorque_engineinit = null;
+            mtorque_enginetick = null;
+            mtorque_engineshutdown = null;
+            mtorque_setwebdeployment = null;
+            mtorque_enginesignalshutdown = null;
+            mtorque_reset = null;
+            mtorque_resizewindow = null;
+            mclientGroup_getCount = null;
+            mclientGroup_getObject = null;
+            mNameSpace_isMethod = null;
+            mremoveTaggedString = null;
+            mConsoleCall = null;
+            mgetTaggedString = null;
+            maddTaggedString = null;
+            mConsole_warnf = null;
+            mConsole_printf = null;
+            mConsole_errorf = null;
+            mdeleteVariables = null;
+            mobjectHasMethod = null;
+            misFunction = null;
+            mGetObjectID = null;
+            mclearServerPaths = null;
+            mgetDataBlock = null;
+            mgetName = null;
+            mnameToID = null;
+            mspawnObject = null;
+            mgetClassName = null;
+            mParentCall = null;
+            mParentCallFunct = null;
+            mClassname_Call = null;
+            mcommandToClient = null;
+            mcommandToServer = null;
+            mConsole_getSimTime = null;
+            mNameSpace_isInNamespaceHierarchy = null;
+            mContainerRadiusSearch = null;
+            mcs_torque_getvariable = null;
+            mcs_torque_setvariable = null;
+            mSceneObject_getTypeMask = null;
+            mSceneObject_initContainerRadiusSearch = null;
+            mexecute = null;
+            mSimObject_Call = null;
+            mSimObject_CallScript = null;
+            mMath_MatrixCreateFromEuler = null;
+            mMath_MatrixMulVector = null;
+            misObject = null;
+            mSimObject_isField = null;
+            mClearWLE_IsFunction = null;
+            mSetWLE_IsFunction = null;
+			mClearWLE_gIsFunction = null;
+            mSetWLE_gIsFunction = null;
+
+            mClearWLE_setIcon = null;
+
+            m_SetWLE_setIcon = null;
+
+            GC.Collect();
+            }
+
+        static private void MapConsoleExterns(string dllname)
+            {
+            mClearWLE_setIcon = (ClearWLE_setIcon)Marshal.GetDelegateForFunctionPointer(GetProcAddress(dllname, "ClearWLE_setIcon"), typeof(ClearWLE_setIcon));
+            m_SetWLE_setIcon = (SetWLE_setIcon)Marshal.GetDelegateForFunctionPointer(GetProcAddress(dllname, "SetWLE_setIcon"), typeof(SetWLE_setIcon));
+
+            mClearWLE_IsFunction = (ClearWLE_IsFunction)Marshal.GetDelegateForFunctionPointer(GetProcAddress(dllname, "ClearWLE_IsFunction"), typeof(ClearWLE_IsFunction));
+            mSetWLE_IsFunction = (SetWLE_IsFunction)Marshal.GetDelegateForFunctionPointer(GetProcAddress(dllname, "SetWLE_IsFunction"), typeof(SetWLE_IsFunction));
+
+			mClearWLE_gIsFunction = (ClearWLE_gIsFunction)Marshal.GetDelegateForFunctionPointer(GetProcAddress(dllname, "ClearWLE_gIsFunction"), typeof(ClearWLE_gIsFunction));
+            mSetWLE_gIsFunction = (SetWLE_gIsFunction)Marshal.GetDelegateForFunctionPointer(GetProcAddress(dllname, "SetWLE_gIsFunction"), typeof(SetWLE_gIsFunction));
+
+
+            mClearExportVariablesAsSettings = (ClearExportVariablesAsSettings)Marshal.GetDelegateForFunctionPointer(GetProcAddress(dllname, "ClearExportVariablesAsSettings"), typeof(ClearExportVariablesAsSettings));
+            mSetExportVariablesAsSettings = (SetExportVariablesAsSettings)Marshal.GetDelegateForFunctionPointer(GetProcAddress(dllname, "SetExportVariablesAsSettings"), typeof(SetExportVariablesAsSettings));
+
+            mexecuteScript = (executeScript)Marshal.GetDelegateForFunctionPointer(GetProcAddress(dllname, "executeScript"), typeof(executeScript));
+
+            mSetGlobalFunctionCallback = (SetGlobalFunctionCallback)Marshal.GetDelegateForFunctionPointer(GetProcAddress(dllname, "SetGlobalFunctionCallback"), typeof(SetGlobalFunctionCallback));
+            mClearGlobalFunctionCallback = (ClearGlobalFunctionCallback)Marshal.GetDelegateForFunctionPointer(GetProcAddress(dllname, "SetGlobalFunctionCallback"), typeof(ClearGlobalFunctionCallback));
+
+            mSetEngineCallback = (SetEngineCallback)Marshal.GetDelegateForFunctionPointer(GetProcAddress(dllname, "SetEngineCallback"), typeof(SetEngineCallback));
+            mClearEngineCallback = (ClearEngineCallback)Marshal.GetDelegateForFunctionPointer(GetProcAddress(dllname, "ClearEngineCallback"), typeof(ClearEngineCallback));
+            mSetHandler_SimIdDictionary = (SetHandler_SimIdDictionary)Marshal.GetDelegateForFunctionPointer(GetProcAddress(dllname, "SetHandler_SimIdDictionary"), typeof(SetHandler_SimIdDictionary));
+            mClearHandler_SimIdDictionary = (ClearHandler_SimIdDictionary)Marshal.GetDelegateForFunctionPointer(GetProcAddress(dllname, "ClearHandler_SimIdDictionary"), typeof(ClearHandler_SimIdDictionary));
+
+            mtorque_gethwnd = (torque_gethwnd)Marshal.GetDelegateForFunctionPointer(GetProcAddress(dllname, "torque_gethwnd"), typeof(torque_gethwnd));
+            mdnt_torque_engineinit = (dnt_torque_engineinit)Marshal.GetDelegateForFunctionPointer(GetProcAddress(dllname, "dnt_torque_engineinit"), typeof(dnt_torque_engineinit));
+
+            mgetEulerRotation = (getEulerRotation)Marshal.GetDelegateForFunctionPointer(GetProcAddress(dllname, "getEulerRotation"), typeof(getEulerRotation));
+            misMemberOfClass = (isMemberOfClass)Marshal.GetDelegateForFunctionPointer(GetProcAddress(dllname, "isMemberOfClass"), typeof(isMemberOfClass));
+            mpathOnMissionLoadDone = (pathOnMissionLoadDone)Marshal.GetDelegateForFunctionPointer(GetProcAddress(dllname, "pathOnMissionLoadDone"), typeof(pathOnMissionLoadDone));
+
+            mtorque_engineinit = (torque_engineinit)Marshal.GetDelegateForFunctionPointer(GetProcAddress(dllname, "torque_engineinit"), typeof(torque_engineinit));
+            mtorque_enginetick = (torque_enginetick)Marshal.GetDelegateForFunctionPointer(GetProcAddress(dllname, "torque_enginetick"), typeof(torque_enginetick));
+            mtorque_engineshutdown = (torque_engineshutdown)Marshal.GetDelegateForFunctionPointer(GetProcAddress(dllname, "torque_engineshutdown"), typeof(torque_engineshutdown));
+            mtorque_setwebdeployment = (torque_setwebdeployment)Marshal.GetDelegateForFunctionPointer(GetProcAddress(dllname, "torque_setwebdeployment"), typeof(torque_setwebdeployment));
+            mtorque_enginesignalshutdown = (torque_enginesignalshutdown)Marshal.GetDelegateForFunctionPointer(GetProcAddress(dllname, "torque_enginesignalshutdown"), typeof(torque_enginesignalshutdown));
+            mtorque_reset = (torque_reset)Marshal.GetDelegateForFunctionPointer(GetProcAddress(dllname, "torque_reset"), typeof(torque_reset));
+            mtorque_resizewindow = (torque_resizewindow)Marshal.GetDelegateForFunctionPointer(GetProcAddress(dllname, "torque_resizewindow"), typeof(torque_resizewindow));
+
+            mclientGroup_getCount = (clientGroup_getCount)Marshal.GetDelegateForFunctionPointer(GetProcAddress(dllname, "clientGroup_getCount"), typeof(clientGroup_getCount));
+            mclientGroup_getObject = (clientGroup_getObject)Marshal.GetDelegateForFunctionPointer(GetProcAddress(dllname, "clientGroup_getObject"), typeof(clientGroup_getObject));
+            mNameSpace_isMethod = (NameSpace_isMethod)Marshal.GetDelegateForFunctionPointer(GetProcAddress(dllname, "NameSpace_isMethod"), typeof(NameSpace_isMethod));
+            mremoveTaggedString = (removeTaggedString)Marshal.GetDelegateForFunctionPointer(GetProcAddress(dllname, "removeTaggedString"), typeof(removeTaggedString));
+            mConsoleCall = (ConsoleCall)Marshal.GetDelegateForFunctionPointer(GetProcAddress(dllname, "ConsoleCall"), typeof(ConsoleCall));
+            mgetTaggedString = (getTaggedString)Marshal.GetDelegateForFunctionPointer(GetProcAddress(dllname, "getTaggedString"), typeof(getTaggedString));
+            maddTaggedString = (addTaggedString)Marshal.GetDelegateForFunctionPointer(GetProcAddress(dllname, "addTaggedString"), typeof(addTaggedString));
+            mConsole_warnf = (Console_warnf)Marshal.GetDelegateForFunctionPointer(GetProcAddress(dllname, "Console_warnf"), typeof(Console_warnf));
+            mConsole_printf = (Console_printf)Marshal.GetDelegateForFunctionPointer(GetProcAddress(dllname, "Console_printf"), typeof(Console_printf));
+            mConsole_errorf = (Console_errorf)Marshal.GetDelegateForFunctionPointer(GetProcAddress(dllname, "Console_errorf"), typeof(Console_errorf));
+            mdeleteVariables = (deleteVariables)Marshal.GetDelegateForFunctionPointer(GetProcAddress(dllname, "deleteVariables"), typeof(deleteVariables));
+            mobjectHasMethod = (objectHasMethod)Marshal.GetDelegateForFunctionPointer(GetProcAddress(dllname, "objectHasMethod"), typeof(objectHasMethod));
+            misFunction = (isFunction)Marshal.GetDelegateForFunctionPointer(GetProcAddress(dllname, "isFunction"), typeof(isFunction));
+            mGetObjectID = (GetObjectID)Marshal.GetDelegateForFunctionPointer(GetProcAddress(dllname, "GetObjectID"), typeof(GetObjectID));
+            mclearServerPaths = (clearServerPaths)Marshal.GetDelegateForFunctionPointer(GetProcAddress(dllname, "clearServerPaths"), typeof(clearServerPaths));
+            mgetDataBlock = (getDataBlock)Marshal.GetDelegateForFunctionPointer(GetProcAddress(dllname, "getDataBlock"), typeof(getDataBlock));
+            mgetName = (getName)Marshal.GetDelegateForFunctionPointer(GetProcAddress(dllname, "getName"), typeof(getName));
+            mnameToID = (nameToID)Marshal.GetDelegateForFunctionPointer(GetProcAddress(dllname, "nameToID"), typeof(nameToID));
+            mspawnObject = (spawnObject)Marshal.GetDelegateForFunctionPointer(GetProcAddress(dllname, "spawnObject"), typeof(spawnObject));
+            mgetClassName = (getClassName)Marshal.GetDelegateForFunctionPointer(GetProcAddress(dllname, "getClassName"), typeof(getClassName));
+            mParentCall = (ParentCall)Marshal.GetDelegateForFunctionPointer(GetProcAddress(dllname, "ParentCall"), typeof(ParentCall));
+            mParentCallFunct = (ParentCallFunct)Marshal.GetDelegateForFunctionPointer(GetProcAddress(dllname, "ParentCallFunct"), typeof(ParentCallFunct));
+            mClassname_Call = (Classname_Call)Marshal.GetDelegateForFunctionPointer(GetProcAddress(dllname, "Classname_Call"), typeof(Classname_Call));
+            mcommandToClient = (commandToClient)Marshal.GetDelegateForFunctionPointer(GetProcAddress(dllname, "commandToClient"), typeof(commandToClient));
+            mcommandToServer = (commandToServer)Marshal.GetDelegateForFunctionPointer(GetProcAddress(dllname, "commandToServer"), typeof(commandToServer));
+            mConsole_getSimTime = (Console_getSimTime)Marshal.GetDelegateForFunctionPointer(GetProcAddress(dllname, "Console_getSimTime"), typeof(Console_getSimTime));
+            mNameSpace_isInNamespaceHierarchy = (NameSpace_isInNamespaceHierarchy)Marshal.GetDelegateForFunctionPointer(GetProcAddress(dllname, "NameSpace_isInNamespaceHierarchy"), typeof(NameSpace_isInNamespaceHierarchy));
+            mContainerRadiusSearch = (ContainerRadiusSearch)Marshal.GetDelegateForFunctionPointer(GetProcAddress(dllname, "ContainerRadiusSearch"), typeof(ContainerRadiusSearch));
+            mcs_torque_getvariable = (cs_torque_getvariable)Marshal.GetDelegateForFunctionPointer(GetProcAddress(dllname, "cs_torque_getvariable"), typeof(cs_torque_getvariable));
+            mcs_torque_setvariable = (cs_torque_setvariable)Marshal.GetDelegateForFunctionPointer(GetProcAddress(dllname, "cs_torque_setvariable"), typeof(cs_torque_setvariable));
+            mSceneObject_getTypeMask = (SceneObject_getTypeMask)Marshal.GetDelegateForFunctionPointer(GetProcAddress(dllname, "SceneObject_getTypeMask"), typeof(SceneObject_getTypeMask));
+            mSceneObject_initContainerRadiusSearch = (SceneObject_initContainerRadiusSearch)Marshal.GetDelegateForFunctionPointer(GetProcAddress(dllname, "SceneObject_initContainerRadiusSearch"), typeof(SceneObject_initContainerRadiusSearch));
+            mexecute = (execute)Marshal.GetDelegateForFunctionPointer(GetProcAddress(dllname, "execute"), typeof(execute));
+            mSimObject_Call = (SimObject_Call)Marshal.GetDelegateForFunctionPointer(GetProcAddress(dllname, "SimObject_Call"), typeof(SimObject_Call));
+            mSimObject_CallScript = (SimObject_CallScript)Marshal.GetDelegateForFunctionPointer(GetProcAddress(dllname, "SimObject_CallScript"), typeof(SimObject_CallScript));
+            mMath_MatrixCreateFromEuler = (Math_MatrixCreateFromEuler)Marshal.GetDelegateForFunctionPointer(GetProcAddress(dllname, "Math_MatrixCreateFromEuler"), typeof(Math_MatrixCreateFromEuler));
+            mMath_MatrixMulVector = (Math_MatrixMulVector)Marshal.GetDelegateForFunctionPointer(GetProcAddress(dllname, "Math_MatrixMulVector"), typeof(Math_MatrixMulVector));
+            misObject = (isObject)Marshal.GetDelegateForFunctionPointer(GetProcAddress(dllname, "isObject"), typeof(isObject));
+            mSimObject_isField = (SimObject_isField)Marshal.GetDelegateForFunctionPointer(GetProcAddress(dllname, "SimObject_isField"), typeof(SimObject_isField));
+            }
+
+
+
+
+        #region AutoGen
+       
+       
+	    ###INSERTAUTOGEN###
+	    
+        #endregion
+
+
+
+        }
+
+    }</value>
+  </data>
+  <data name="ConversionCode" xml:space="preserve">
+    <value>#region ProxyObjects Operator Overrides
+
+        /// &lt;summary&gt;
+        /// 
+        /// &lt;/summary&gt;
+        /// &lt;param name="ts"&gt;&lt;/param&gt;
+        /// &lt;param name="simobjectid"&gt;&lt;/param&gt;
+        /// &lt;returns&gt;&lt;/returns&gt;
+        public static bool operator ==( #@!#CLASSNAME#@!# ts, string simobjectid)
+            {
+            return object.ReferenceEquals(ts, null) ? object.ReferenceEquals(simobjectid, null) : ts.Equals(simobjectid);
+            }
+
+        /// &lt;summary&gt;
+        /// 
+        /// &lt;/summary&gt;
+        /// &lt;returns&gt;&lt;/returns&gt;
+        public override int GetHashCode()
+            {
+            return base.GetHashCode();
+            }
+
+        /// &lt;summary&gt;
+        /// 
+        /// &lt;/summary&gt;
+        /// &lt;param name="obj"&gt;&lt;/param&gt;
+        /// &lt;returns&gt;&lt;/returns&gt;
+        public override bool Equals(object obj)
+            {
+            return (this._ID == (string) myReflections.ChangeType(obj, typeof (string)));
+            }
+
+        /// &lt;summary&gt;
+        /// 
+        /// &lt;/summary&gt;
+        /// &lt;param name="ts"&gt;&lt;/param&gt;
+        /// &lt;param name="simobjectid"&gt;&lt;/param&gt;
+        /// &lt;returns&gt;&lt;/returns&gt;
+        public static bool operator !=( #@!#CLASSNAME#@!# ts, string simobjectid)
+            {
+            if (object.ReferenceEquals(ts, null))
+                return !object.ReferenceEquals(simobjectid, null);
+            return !ts.Equals(simobjectid);
+            }
+
+
+        /// &lt;summary&gt;
+        /// 
+        /// &lt;/summary&gt;
+        /// &lt;param name="ts"&gt;&lt;/param&gt;
+        /// &lt;returns&gt;&lt;/returns&gt;
+        public static implicit operator string( #@!#CLASSNAME#@!# ts)
+            {
+            if (object.ReferenceEquals(ts, null))
+                return "0";
+            return ts._ID;
+            }
+
+        /// &lt;summary&gt;
+        /// 
+        /// &lt;/summary&gt;
+        /// &lt;param name="ts"&gt;&lt;/param&gt;
+        /// &lt;returns&gt;&lt;/returns&gt;
+        public static implicit operator  #@!#CLASSNAME#@!#(string ts)
+            {
+            uint simobjectid = resolveobject(ts);
+            return ( #@!#CLASSNAME#@!#) Omni.self.getSimObject(simobjectid, typeof ( #@!#CLASSNAME#@!#));
+            }
+
+        /// &lt;summary&gt;
+        /// 
+        /// &lt;/summary&gt;
+        /// &lt;param name="ts"&gt;&lt;/param&gt;
+        /// &lt;returns&gt;&lt;/returns&gt;
+        public static implicit operator int( #@!#CLASSNAME#@!# ts)
+            {
+            return (int) ts._iID;
+            }
+
+        /// &lt;summary&gt;
+        /// 
+        /// &lt;/summary&gt;
+        /// &lt;param name="simobjectid"&gt;&lt;/param&gt;
+        /// &lt;returns&gt;&lt;/returns&gt;
+        public static implicit operator  #@!#CLASSNAME#@!#(int simobjectid)
+            {
+            return ( #@!#CLASSNAME#@!#) Omni.self.getSimObject((uint) simobjectid, typeof ( #@!#CLASSNAME#@!#));
+            }
+
+        /// &lt;summary&gt;
+        /// 
+        /// &lt;/summary&gt;
+        /// &lt;param name="ts"&gt;&lt;/param&gt;
+        /// &lt;returns&gt;&lt;/returns&gt;
+        public static implicit operator uint( #@!#CLASSNAME#@!# ts)
+            {
+            return (uint) ts._iID;
+            }
+
+        /// &lt;summary&gt;
+        /// 
+        /// &lt;/summary&gt;
+        /// &lt;returns&gt;&lt;/returns&gt;
+        public static implicit operator  #@!#CLASSNAME#@!#(uint simobjectid)
+            {
+            return ( #@!#CLASSNAME#@!#) Omni.self.getSimObject(simobjectid, typeof ( #@!#CLASSNAME#@!#));
+            }
+
+        #endregion</value>
+  </data>
+</root>
